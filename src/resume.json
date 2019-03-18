@@ -1,0 +1,135 @@
+
+{
+  "basics": {
+    "name": " Supratik Baksi \"Neil\"",
+    "label": "Final Year Software Engineering Student",
+    "email": "snb.1996@gmail.com",
+    "phone": "+61 413-415-467",
+    "website": "https://neilsupratikbaksi.com",
+    "summary": "Final Year Software Engineering Student seeking to work closely with a highly motivated team to apply experience in UI/UX Design and Web Development by leveraging new and existing technologies, and implementing effective solutions.",
+    "location": {
+      "address": "Unit 201, 34 Shoreline Drive, RHODES NSW 2138",
+      "postalCode": "2138",
+      "city": "Sydney",
+      "countryCode": "AUS",
+      "region": "NSW"
+    },
+    "profiles": [{
+      "network": "Instagram",
+      "username": "neilbaksi",
+      "url": "http://instagram.com/neilbaksi"
+    }]
+  },
+  "work": [{
+    "company": "Agape Henry Crux",
+    "current": true,
+    "position": "IT Intern",
+    "website": "http://www.ahclawyers.com/",
+    "startDate": "November 2018",
+    "endDate": "Present",
+    "summary": "Responsible for turning whiteboard sketches into working prototypes, and transforming design mockups into user interfaces",
+    "highlights": [
+      "Maintain both new and legacy environments, supporting React JS and Vanilla Javascript code base.",
+      "Update site content inside IBM WebSphere Ecommerce Content Management System.",
+      "Optimize front-end performance.",
+      "Integrate created code with other technologies, including web services, java back-end systems, content management systems, etc.",
+      "Collaborate with backend developers and creative designers to create new site features as needed and to troubleshoot and solve problems."
+    ]},
+    {
+    "company": "Nestlé Australia – Regional Globe Office",
+    "current": false,
+    "position": "Complementary Applications Team Intern",
+    "website": "http://www.nestlé.com.au",
+    "startDate": "December 2017",
+    "endDate": "March 2018",
+    "summary": "Work with the Deloitte IT Innovation team to create apps that eliminate manual processes within IT",
+    "highlights": [
+      "Developed tools using JavaScript, HTML5/CSS3/SASS, and SQL.",
+      "Developed an Asset Management tool that automates the laptop shipping process.",
+      "Took over development of Web App used by all internal IT in the US and India, that brings together all important end-user information by the swipe of a badge into one UI."
+    ]}, 
+    {
+    "company": "Australian Turf Club",
+    "current": true,
+    "position": "Customer Service Representative",
+    "website": "http://www.australianturfclub.com.au/",
+    "startDate": "March 2017",
+    "endDate": "Present",
+    "summary": "Bartender, Event and Logistics Staff",
+    "highlights": [
+
+    ]},
+    {
+    "company": "Public Outreach Australia",
+    "current": false,
+    "position": "Face to Face Fundraiser",
+    "website": "https://www.publicoutreachaustralia.com/",
+    "startDate": "January 2016",
+    "endDate": "March 2016",
+    "summary": "Fundraiser for LIFELINE Australia",
+    "highlights": [
+    ]}
+  ],
+  "education": [{
+    "institution": "University of New South Wales",
+    "area": "Engineering (Software) - Honours",
+    "studyType": "Bachelors",
+    "startDate": "2015",
+    "endDate": "2019",
+    "gpa": "70",
+    "courses": [
+      "Java"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "website": "http://publication.com",
+    "summary": "Description..."
+  }],
+  "skills": {
+    "name": "Web Development",
+    "level": "Mid-Level",
+    "keywords": [
+      "HTML5",
+      "CSS3",
+      "Javascript",
+      "React JS",
+      "Node JS",
+      "jQuery",
+      "MySQL",
+      "Mongo DB",
+      "Git",
+      "Firebase",
+      "C",
+      "JAVA",
+      "Perl",
+      "Python",
+      "Powershell",
+      "Adobe Suite - Photoshop, Lightroom, XD, Dreamweaver",
+      "CMS - Squarespace, Wordpress, Wix"
+    ]
+  },
+  "languages": [{
+    "name": "English",
+    "level": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference..."
+  }]
+}
