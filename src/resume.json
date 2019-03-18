@@ -5,8 +5,9 @@
     "label": "Final Year Software Engineering Student",
     "email": "snb.1996@gmail.com",
     "phone": "+61 413-415-467",
-    "website": "https://neilsupratikbaksi.com",
-    "summary": "Final Year Software Engineering Student seeking to work closely with a highly motivated team to apply experience in UI/UX Design and Web Development by leveraging new and existing technologies, and implementing effective solutions.",
+    "website": "https://www.snbaksi.com",
+    "summary": "Final Year Software Engineering Student seeking to work closely with a highly motivated team to apply experience in UI/UX Design and Web Development by leveraging new and existing technologies, and implementing effective solutions.
+                Key Interests – Data Analytics, Website Development, User Interaction/Experience Design",
     "location": {
       "address": "Unit 201, 34 Shoreline Drive, RHODES NSW 2138",
       "postalCode": "2138",
@@ -27,13 +28,11 @@
     "website": "http://www.ahclawyers.com/",
     "startDate": "November 2018",
     "endDate": "Present",
-    "summary": "Responsible for turning whiteboard sketches into working prototypes, and transforming design mockups into user interfaces",
+    "summary": "Provide Level 1 IT Support – Manage the software and hardware infrastructure and Website Administrator",
     "highlights": [
-      "Maintain both new and legacy environments, supporting React JS and Vanilla Javascript code base.",
-      "Update site content inside IBM WebSphere Ecommerce Content Management System.",
-      "Optimize front-end performance.",
-      "Integrate created code with other technologies, including web services, java back-end systems, content management systems, etc.",
-      "Collaborate with backend developers and creative designers to create new site features as needed and to troubleshoot and solve problems."
+      "Assist in the designing and creation of a new Agape Henry Crux website on Squarespace and management of and old website on WordPress",
+      "Involved in online marketing of company services using Google Ads and search engine optimisation",
+      "Troubleshooting and liaising with clients and service providers"
     ]},
     {
     "company": "Nestlé Australia – Regional Globe Office",
@@ -42,11 +41,13 @@
     "website": "http://www.nestlé.com.au",
     "startDate": "December 2017",
     "endDate": "March 2018",
-    "summary": "Work with the Deloitte IT Innovation team to create apps that eliminate manual processes within IT",
+    "summary": "Developed an Application Compliance Monitoring Dashboard for pre-production and production servers.",
     "highlights": [
-      "Developed tools using JavaScript, HTML5/CSS3/SASS, and SQL.",
-      "Developed an Asset Management tool that automates the laptop shipping process.",
-      "Took over development of Web App used by all internal IT in the US and India, that brings together all important end-user information by the swipe of a badge into one UI."
+      "Creatively utilised Powershell, IIS, XML+XSLT, Microsoft ActiveDirectory, Excel, SharePoint, Visio in developing an optimal Compliance Monitoring Dashboard. ",
+      "Effectively generated reports and data visualisation using Microsoft PowerBI ", 
+      "Gained valuable knowledge on Level 3 Application support ",
+      "Worked efficiently with managing offshore clients, taking calls, queue management, picking up tickets on HP Service Manager and handling tickers of varying severity ",
+      "Collaborated closely with team members in managing the process of applications from pre-production to production environment "
     ]}, 
     {
     "company": "Australian Turf Club",
