@@ -14,8 +14,8 @@ const Contact = (props) => {
             transitionEnterTimeout={5000}
             transitionLeaveTimeout={3000}>
             <h1 className="Header-name" >Contact:</h1>
-            <a href="mailto:carlos@carlosrh.com?subject=Resume%20Inquiry" style={{color: '#4a4a4a',textDecoration: 'none'}}>{email}</a>
-            <a href="https://carlosrh.com" style={{color: '#4a4a4a',textDecoration: 'none'}} target="_blank">{website}</a>
+            <a href="mailto:snb.1996@gmail.com.com?subject=Resume%20Inquiry" style={{color: '#4a4a4a',textDecoration: 'none'}}>{email}</a>
+            <a href="https://www.snbaksi.com" style={{color: '#4a4a4a',textDecoration: 'none'}} target="_blank">{website}</a>
         
           </CSSTransitionGroup>
         </div>
@@ -23,8 +23,5 @@ const Contact = (props) => {
     )
 }
 
-// Contact.propTypes = {
-//   tagline: React.PropTypes.string.isRequired
-// }
     
 export default Contact;

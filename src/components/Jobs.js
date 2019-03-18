@@ -6,7 +6,7 @@ class Jobs extends Component {
     return (
       <div className="Jobs-container" style={{background:colors}}>
           <div className="jobs-flex">
-            <h4>{details.company}</h4>
+            <h3>{details.company}</h3>
             <div>{details.position}</div>
           </div>
           

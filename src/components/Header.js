@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import Skills from './Skills';
 import logo from '../logo.svg';
 
 class Header extends Component {
@@ -9,27 +8,19 @@ class Header extends Component {
     return (
       <div className="Header-Container">
         <div className="Header-content">
-         
           <h1 className="Header-name">{basics.name}</h1>
-          <h4 className="Header-label">Currently in {basics.location.city} 🗽</h4>
-        {/*<img className="Header-image" src={basics.picture} alt="This is me!"/>*/} 
-        <p className="Header-desc">{basics.summary}</p>
-        {/*<h4>Skill Set:</h4>
-        <ul className="Skills-list">
-          {
-            skills.keywords
-              .map((key, index) => <Skills key={key} details={skills.keywords[index]}/>)
-          }
-        </ul>*/}
-        
+          <h4 className="Header-label">Currently in {basics.location.city} 🐨</h4>
+          <br></br>
+        <p className="Header-desc">{basics.summary}</p> 
+        <p>{basics.interests}</p>       
+        <p>Hobbies – {basics.extraInterests}</p>        
          <div className="made-with-react">
-          <a href="https://github.com/carloschulo/react-resume" target="_blank">
+          <a href="https://github.com/NeilBaksi/Portfolio" target="_blank">
             made with 
             <img src={logo} className="App-logo" alt="Made With React Logo"/>
             </a>
           </div>
-          <a className="onlyforiphoneSE" href="mailto:carlos@carlosrh.com?subject=Resume%20Inquiry" style={{color: '#4a4a4a',textDecoration: 'none'}}>Contact me</a>
-        
+          <button className="chips blue" style={{background:'white', fontSize:'16px'}}><a href="https://goo.gl/aNfKUK" target="_blank">View Resume</a></button>
         </div>
       </div>
     );

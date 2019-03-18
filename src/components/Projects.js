@@ -1,22 +1,21 @@
 import React, { Component } from 'react';
 import Jobs from './Jobs';
 
-class Card extends Component {
+class Projects extends Component {
   render() {
-    const { work } = this.props.resumeObj;
-    const bgColors = ['#4A4A4A', '#DB7093', '#009EE2', '#FFAB91'];
-   
+    const { projects } = this.props.resumeObj;
+    const bgColors = ['#4A4A4A', '#DB7093', '#009EE2', '#FFAB91'];   
     return (
       <div className="Card-Container">
       <h2 className="down-here animated bounce infinite">⬇ Down Here ⬇</h2>
         <div className="Card-content">
          {
-            work
+            projects
               .map((key, index) => {
                 return (
                   <Jobs 
                   key={index} 
-                  details={work[index]}
+                  details={projects[index]}
                   colors={bgColors[index]}
                   />
                 )
@@ -28,4 +27,4 @@ class Card extends Component {
   }
 }
 
-export default Card;
+export default Projects;

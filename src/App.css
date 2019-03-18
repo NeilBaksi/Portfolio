@@ -24,7 +24,7 @@
   position: absolute;
   z-index: 100;
   left: 2%;
-  top: 0%;
+  top: 1%;
   list-style: none;
   display: flex;
 }
@@ -38,8 +38,6 @@
   align-items: center;
   flex-direction: row;
   font-size: 10px;
-  /*position: absolute;
-  top: 1%;*/
 }
 
 .Header-Container,
@@ -131,7 +129,7 @@
 }
 
 .job-highlights {
-  list-style: none;
+  list-style: square;
   font-weight: 200;
 }
 
