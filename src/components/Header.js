@@ -20,7 +20,7 @@ class Header extends Component {
             <img src={logo} className="App-logo" alt="Made With React Logo"/>
             </a>
           </div>
-          <button className="chips blue" style={{background:'white', fontSize:'16px'}}><a href="https://goo.gl/aNfKUK" target="_blank">View Resume</a></button>
+          <a href="https://goo.gl/aNfKUK" target="_blank"><button className="chips blue" style={{ fontSize:'16px'}}>View Resume</button></a>
         </div>
       </div>
     );

@@ -90,6 +90,7 @@
   color: white;
   padding: 9px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  border: solid #3b80fe;
   border-radius: 2px;
 }
 .chips.blue {
@@ -97,6 +98,11 @@
 }
 .chips.teal {
   background: #54E7C7;
+}
+.chips:hover {
+  background-color: #ffffff;
+  border: solid #3b80fe;
+  color: #3b80fe;
 }
 
 .Card-content {
