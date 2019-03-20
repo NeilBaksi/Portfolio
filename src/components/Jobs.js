@@ -16,7 +16,7 @@ class Jobs extends Component {
           <br/>
           
           <div className="job-summary">
-          {details.summary}:
+          {details.summary}
             <ul className="job-highlights">
               {
                 details.highlights
@@ -25,6 +25,7 @@ class Jobs extends Component {
                   })
               }
             </ul>
+           <a href={details.link} target="_blank">{details.link}</a> 
           </div>
       </div>
     );

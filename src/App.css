@@ -21,7 +21,7 @@
 }
 
 .App__pages{
-  position: absolute;
+  position: fixed;
   z-index: 100;
   left: 2%;
   top: 1%;
@@ -69,6 +69,13 @@
 .Header-name {
   font-weight: 900;
   color: #4a4a4a;
+}
+@media only screen and (max-width: 600px) {
+  .Header-name {
+    font-weight: 900;
+    margin-top: 30%;
+    color: #4a4a4a;
+  }  
 }
 
 .Header-Container .Header-label {

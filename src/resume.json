@@ -58,7 +58,7 @@
     "endDate": "Present",
     "summary": "Bartender, Event and Logistics Staff",
     "highlights": [
-
+      "Held similar positions at Alseasons Hospitality, The Star Entertainment Group, Benchmarque"
     ]},
     {
     "company": "Public Outreach Australia",
@@ -112,8 +112,10 @@
     "startDate": "October 2018",
     "endDate": "November 2018",
     "summary": "Developed a Web Service to predict crime statistics of a given suburb of NSW and correlate that to the median housing prices so as to find a relationship between them",
+    "link": "https://github.com/NeilBaksi/COMP9321Ass3",
     "highlights": [
-		"Tools used – ReactJS with Materialize, Python with SciKit, Pandas, and Flask+RESTPlus, MongoDB"
+    "Tools used – ReactJS with Materialize, Python with SciKit, Pandas, and Flask+RESTPlus, MongoDB",
+    "The GitHub repository of the Project can be found at:"
     ]},
     {
     "company": "Software Engineering Project 3",
@@ -134,8 +136,10 @@
     "startDate": "August 2017",
     "endDate": "November 2017",
     "summary": "Developed a Web Service to showcase complete profile of a given suburb of NSW",
+    "link": "https://goo.gl/31TmZq",
     "highlights": [
-		"Tools used - ReactJS with Bootstrap, NodeJS, Express, MongoDB, Heroku, Domain API, Wikipedia API, Google Places API, Bing News API, Instagram API"
+    "Tools used - ReactJS with Bootstrap, NodeJS, Express, MongoDB, Heroku, Domain API, Wikipedia API, Google Places API, Bing News API, Instagram API",
+    "Prototypes built with Photoshop can be found on the link below:"
     ]}
   ],
   "education": [{

@@ -14,15 +14,7 @@ class App extends Component {
     return (
       <Router>  
         <div className="App">
-          <Header resumeObj={resume} className="Left"/>
-          
-          <Route exact path={'/'} render={({ match }) => <Card resumeObj={resume} />}/>
-          <Route exact path={'/📖'} render={({ match }) => <Projects resumeObj={resume} />}/>
-          <Route exact path={'/💻'} render={({ match }) => <SkillList resumeObj={resume} />}/>
-          <Route exact path={'/🎒'} render={({ match }) => <School education={resume.education[0]} />}/>
-          <Route exact path={'/📧'} render={({ match }) => <Contact info={resume.basics} />}/>
-         
-        {/*Nav Menu*/}
+          {/*Nav Menu*/}
           <ul className="App__pages">
             <NavLink exact to={'/'} activeStyle={{fontWeight: 'bold', boxShadow: '1px 0px 0px rgba(0, 0, 0, 0.4)'}} className="chips blue">
               Work
@@ -40,6 +32,15 @@ class App extends Component {
               Contact
             </NavLink>
           </ul>
+          <Header resumeObj={resume} className="Left"/>
+          
+          <Route exact path={'/'} render={({ match }) => <Card resumeObj={resume} />}/>
+          <Route exact path={'/📖'} render={({ match }) => <Projects resumeObj={resume} />}/>
+          <Route exact path={'/💻'} render={({ match }) => <SkillList resumeObj={resume} />}/>
+          <Route exact path={'/🎒'} render={({ match }) => <School education={resume.education[0]} />}/>
+          <Route exact path={'/📧'} render={({ match }) => <Contact info={resume.basics} />}/>
+         
+        
            
         </div>
       </Router>
