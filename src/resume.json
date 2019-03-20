@@ -96,7 +96,7 @@
     {
     "company": "PlebForce (a super light weight inspiration from Salesforce)",
     "current": false,
-    "position": "Complementary Applications Team Intern",
+    "position": "",
     "website": "http://www.nestlé.com.au",
     "startDate": "October 2018",
     "endDate": "November 2018",
@@ -107,7 +107,7 @@
     {
     "company": "Data Services Engineering Project with Machine Learning",
     "current": false,
-    "position": "Customer Service Representative",
+    "position": "",
     "website": "https://github.com/NeilBaksi/COMP9321Ass3",
     "startDate": "October 2018",
     "endDate": "November 2018",
@@ -153,19 +153,6 @@
       "Java"
     ]
   }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "website": "http://publication.com",
-    "summary": "Description..."
-  }],
   "skills": {
     "name": "Web Development",
     "level": "Mid-Level",
@@ -188,20 +175,5 @@
       "Adobe Suite - Photoshop, Lightroom, XD, Dreamweaver",
       "CMS - Squarespace, Wordpress, Wix"
     ]
-  },
-  "languages": [{
-    "name": "English",
-    "level": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference..."
-  }]
+  }
 }
