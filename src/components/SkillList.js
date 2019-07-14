@@ -7,9 +7,9 @@ class SkillList extends Component {
     const { skills } = this.props.resumeObj;
   
     return (
-      <div className="Modal-Container bg-gray" style={{padding: '0 40px', display: 'flex', alignItems: 'flex-start'}}>
+      <div className="Modal-Container bg-gray" style={{display: 'flex'}}>
         <div className="Modal-content">
-          <h1 className="Header-name">Skill Set:</h1>
+          <h1 className="Header-name-modal">Skill Set:</h1>
           <ul className="Skills-list">
             {
               skills.keywords

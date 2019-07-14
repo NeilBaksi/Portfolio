@@ -6,7 +6,7 @@
     "phone": "+61 413-415-467",
     "website": "https://www.snbaksi.com",
     "summary": "Final Year Software Engineering Student seeking to work closely with a highly motivated team to apply experience in UI/UX Design and Web Development by leveraging new and existing technologies, and implementing effective solutions.",
-    "interests": "Key Interests – Data Analytics, Website Development, User Interaction/Experience Design, Online Marketing",
+    "interests": "Key Interests – Data Analytics, Website Development, User Interaction/Experience Design, Machine Learning, Online Marketing",
     "extraInterests": "Volunteering 🤗, Football ⚽, Athletics 🏃, Karate, Debating", 
     "location": {
       "address": "Unit 201, 34 Shoreline Drive, RHODES NSW 2138",
@@ -22,12 +22,24 @@
     }]
   },
   "work": [{
-    "company": "Agape Henry Crux",
+    "company": "Oaklas",
     "current": true,
+    "position": "Software Developer",
+    "website": "http://www.oaklas.com/",
+    "startDate": "March 2019",
+    "endDate": "Present",
+    "summary": "Front End Website Developer",
+    "highlights": [
+      "Assist in the designing and creation of Oaklas website and features using ReactJS and other front end technologies, and integrated with Firebase Database, Storage and hosted over AWS",
+      "Exposed to eCommerce website builders like Shopify, Wix"
+    ]},
+    {
+    "company": "Agape Henry Crux",
+    "current": false,
     "position": "IT Intern",
     "website": "http://www.ahclawyers.com/",
     "startDate": "November 2018",
-    "endDate": "Present",
+    "endDate": "March 2019",
     "summary": "Provide Level 1 IT Support – Manage the software and hardware infrastructure and Website Administrator",
     "highlights": [
       "Assist in the designing and creation of a new Agape Henry Crux website on Squarespace and management of and old website on WordPress",

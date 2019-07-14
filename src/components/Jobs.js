@@ -25,7 +25,7 @@ class Jobs extends Component {
                   })
               }
             </ul>
-           <a href={details.link} target="_blank">{details.link}</a> 
+           <a href={details.link} target="_blank" rel="noopener noreferrer">{details.link}</a> 
           </div>
       </div>
     );

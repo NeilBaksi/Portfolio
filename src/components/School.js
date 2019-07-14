@@ -6,7 +6,7 @@ import React from 'react';
       <div className="Modal-Container bg-gray" style={{display: 'flex'}}>
         <div className="Modal-content">
           <div style={{color: '#4a4a4a',display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
-          	<h1 className="Header-name">{institution}</h1>
+          	<h1 className="Header-name-modal">{institution}</h1>
             <h2>{studyType} in {area}</h2>
             <h4>Expected Graduation End {endDate}</h4>
             <br></br>
