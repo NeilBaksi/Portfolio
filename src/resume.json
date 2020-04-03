@@ -1,204 +1,189 @@
 {
-    "basics": {
-        "name": " Supratik Baksi \"Neil\"",
-        "label": "Bachelors of Engineering (Software) Graduate",
-        "email": "snb.1996@gmail.com",
-        "phone": "+61 413-415-467",
-        "website": "https://www.snbaksi.com",
-        "summary": "Bachelors of Engineering (Software) Graduate currently working at Oaklas Pvt. Ltd. as a Front End Website Developer by applying my experience in UI/UX Design and Web Development and leveraging new and existing technologies, and implementing effective solutions.",
-        "interests": "Key Interests – Data Analytics, Website Development, User Interaction/Experience Design, Machine Learning, Online Marketing",
-        "extraInterests": "Volunteering 🤗, Football ⚽, Athletics 🏃, Karate, Debating",
-        "location": {
-            "address": "Unit 201, 34 Shoreline Drive, RHODES NSW 2138",
-            "postalCode": "2138",
-            "city": "Sydney",
-            "countryCode": "AUS",
-            "region": "NSW"
-        },
-        "profiles": [
-            {
-                "network": "Instagram",
-                "username": "neilbaksi",
-                "url": "http://instagram.com/neilbaksi"
-            }
-        ]
-    },
-    "work": [
-        {
-            "company": "Oaklas",
-            "current": true,
-            "position": "Software Developer",
-            "website": "http://www.oaklas.com/",
-            "startDate": "March 2019",
-            "endDate": "Present",
-            "summary": "Front End Website Developer",
-            "highlights": [
-                "Assist in the designing, creation and development of Oaklas website and features using ReactJS and other front end technologies, and integrated with Firebase Database, Storage and hosted over AWS",
-                "Exposed to eCommerce website builders like Shopify, Wix, BigCommerce"
-            ]
-        },
-        {
-            "company": "Agape Henry Crux",
-            "current": false,
-            "position": "IT Intern",
-            "website": "http://www.ahclawyers.com/",
-            "startDate": "November 2018",
-            "endDate": "March 2019",
-            "summary": "Provide Level 1 IT Support – Manage the software and hardware infrastructure and Website Administrator",
-            "highlights": [
-                "Assist in the designing and creation of a new Agape Henry Crux website on Squarespace and management of and old website on WordPress",
-                "Involved in online marketing of company services using Google Ads and search engine optimisation",
-                "Troubleshooting and liaising with clients and service providers"
-            ]
-        },
-        {
-            "company": "Nestlé Australia – Regional Globe Office",
-            "current": false,
-            "position": "Complementary Applications Team Intern",
-            "website": "http://www.nestlé.com.au",
-            "startDate": "December 2017",
-            "endDate": "March 2018",
-            "summary": "Developed an Application Compliance Monitoring Dashboard for pre-production and production servers",
-            "highlights": [
-                "Creatively utilised Powershell, IIS, XML+XSLT, Microsoft ActiveDirectory, Excel, SharePoint, Visio in developing an optimal Compliance Monitoring Dashboard. ",
-                "Effectively generated reports and data visualisation using Microsoft PowerBI ",
-                "Gained valuable knowledge on Level 3 Application support ",
-                "Worked efficiently with managing offshore clients, taking calls, queue management, picking up tickets on HP Service Manager and handling tickers of varying severity ",
-                "Collaborated closely with team members in managing the process of applications from pre-production to production environment "
-            ]
-        },
-        {
-            "company": "Australian Turf Club",
-            "current": true,
-            "position": "Customer Service Representative",
-            "website": "http://www.australianturfclub.com.au/",
-            "startDate": "March 2017",
-            "endDate": "Present",
-            "summary": "Bartender, Event and Logistics Staff",
-            "highlights": [
-                "Held similar positions at Alseasons Hospitality, The Star Entertainment Group, Benchmarque"
-            ]
-        },
-        {
-            "company": "Public Outreach Australia",
-            "current": false,
-            "position": "Face to Face Fundraiser",
-            "website": "https://www.publicoutreachaustralia.com/",
-            "startDate": "January 2016",
-            "endDate": "March 2016",
-            "summary": "Fundraiser for LIFELINE Australia",
-            "highlights": []
-        }
-    ],
-    "education": [
-        {
-            "institution": "University of New South Wales",
-            "area": "Engineering (Software) - Honours",
-            "studyType": "Bachelors",
-            "startDate": "2015",
-            "endDate": "2019",
-            "gpa": "70",
-            "courses": ["Java"]
-        }
-    ],
-    "projects": [
-        {
-            "company": "Thesis",
-            "current": true,
-            "position": "",
-            "website": "http://www.ahclawyers.com/",
-            "startDate": "August 2018",
-            "endDate": "August 2019",
-            "summary": "Designing a Learning Analytics Dashboard to improve student learning and retention",
-            "highlights": [
-                "Focus areas: Data Analytics, Human Computer Interaction, Machine Learning, Data Services Engineering"
-            ]
-        },
-        {
-            "company": "PlebForce (a super light weight inspiration from Salesforce)",
-            "current": false,
-            "position": "",
-            "website": "http://www.nestlé.com.au",
-            "startDate": "October 2018",
-            "endDate": "November 2018",
-            "summary": "Developed a Web Service to act as a lightweight CRM using Yellow Pages",
-            "highlights": [
-                "Tools used – ReactJS with Bootstrap, Firebase, Firebase Realtime Database, Python"
-            ]
-        },
-        {
-            "company": "Data Services Engineering Project with Machine Learning",
-            "current": false,
-            "position": "",
-            "website": "https://github.com/NeilBaksi/COMP9321Ass3",
-            "startDate": "October 2018",
-            "endDate": "November 2018",
-            "summary": "Developed a Web Service to predict crime statistics of a given suburb of NSW and correlate that to the median housing prices so as to find a relationship between them",
-            "link": "https://github.com/NeilBaksi/COMP9321Ass3",
-            "highlights": [
-                "Tools used – ReactJS with Materialize, Python with SciKit, Pandas, and Flask+RESTPlus, MongoDB",
-                "The GitHub repository of the Project can be found at:"
-            ]
-        },
-        {
-            "company": "Software Engineering Project 3",
-            "current": false,
-            "position": "",
-            "website": "https://github.com/NeilBaksi/",
-            "startDate": "March 2018",
-            "endDate": "May 2018",
-            "summary": "Developed a Web Service to show correlation between social media influencer activity and stocks",
-            "highlights": [
-                "Tools used - ReactJS with Materialize, ChartJS, Python+Flask, MongoDB, Heroku, Facebook Graph API, Twitter API, IBM Watson’s NLP API"
-            ]
-        },
-        {
-            "company": "Software Engineering Project 2",
-            "current": false,
-            "position": "",
-            "website": "https://github.com/NeilBaksi/",
-            "startDate": "August 2017",
-            "endDate": "November 2017",
-            "summary": "Developed a Web Service to showcase complete profile of a given suburb of NSW",
-            "link": "https://goo.gl/31TmZq",
-            "highlights": [
-                "Tools used - ReactJS with Bootstrap, NodeJS, Express, MongoDB, Heroku, Domain API, Wikipedia API, Google Places API, Bing News API, Instagram API",
-                "Prototypes built with Photoshop can be found on the link below:"
-            ]
-        }
-    ],
-    "education": [
-        {
-            "institution": "University of New South Wales",
-            "area": "Engineering (Software) - Honours",
-            "studyType": "Bachelors",
-            "startDate": "2015",
-            "endDate": "2019",
-            "gpa": "70",
-            "courses": ["Java"]
-        }
-    ],
-    "skills": {
-        "name": "Web Development",
-        "level": "Mid-Level",
-        "keywords": [
-            "HTML5",
-            "CSS3",
-            "Javascript",
-            "React JS",
-            "Node JS",
-            "jQuery",
-            "MySQL",
-            "Mongo DB",
-            "Git",
-            "Firebase",
-            "C",
-            "JAVA",
-            "Perl",
-            "Python",
-            "Powershell",
-            "Adobe Suite - Photoshop, Lightroom, XD, Dreamweaver",
-            "CMS - Squarespace, Wordpress, Wix"
-        ]
-    }
+	"basics": {
+		"name": " Supratik Baksi \"Neil\"",
+		"label": "Bachelors of Engineering (Software) Graduate",
+		"email": "snb.1996@gmail.com",
+		"phone": "+61 413-415-467",
+		"website": "https://www.snbaksi.com",
+		"summary": "Bachelors of Engineering (Software) Graduate currently working at EnterOffer Pvt. Ltd. as a Front End Website Developer by applying my experience in UI/UX Design and Web Development and leveraging new and existing technologies, and implementing effective solutions.",
+		"interests": "Key Interests – Website Development, User Interaction/Experience Design, Data Analytics, Machine Learning, Online Marketing",
+		"extraInterests": "Volunteering 🤗, Football ⚽, Athletics 🏃, Karate, Debating",
+		"location": {
+			"address": "Unit 502A, 10-16 Marquet Street, RHODES NSW 2138",
+			"postalCode": "2138",
+			"city": "Sydney",
+			"countryCode": "AUS",
+			"region": "NSW"
+		},
+		"profiles": [
+			{
+				"network": "Instagram",
+				"username": "neilbaksi",
+				"url": "http://instagram.com/neilbaksi"
+			}
+		]
+	},
+	"work": [
+		{
+			"company": "EnterOffer",
+			"current": true,
+			"position": "Software Developer",
+			"website": "http://www.enteroffer.com/",
+			"startDate": "March 2019",
+			"endDate": "Present",
+			"summary": "Front End Web Developer",
+			"highlights": [
+				"Assist in the designing, creation and development of Oaklas website and features using ReactJS and other front end technologies, and integrated with Firebase Database, Storage and hosted over AWS",
+				"Exposed to eCommerce website builders like Shopify, Wix, BigCommerce"
+			]
+		},
+		{
+			"company": "Agape Henry Crux",
+			"current": false,
+			"position": "IT Intern",
+			"website": "http://www.ahclawyers.com/",
+			"startDate": "November 2018",
+			"endDate": "March 2019",
+			"summary": "Provide Level 1 IT Support – Manage the software and hardware infrastructure and Website Administrator",
+			"highlights": [
+				"Assist in the designing and creation of a new Agape Henry Crux website on Squarespace and management of and old website on WordPress",
+				"Involved in online marketing of company services using Google Ads and search engine optimisation",
+				"Troubleshooting and liaising with clients and service providers"
+			]
+		},
+		{
+			"company": "Nestlé Australia – Regional Globe Office",
+			"current": false,
+			"position": "Complementary Applications Team Intern",
+			"website": "http://www.nestlé.com.au",
+			"startDate": "December 2017",
+			"endDate": "March 2018",
+			"summary": "Developed an Application Compliance Monitoring Dashboard for pre-production and production servers",
+			"highlights": [
+				"Creatively utilised Powershell, IIS, XML+XSLT, Microsoft ActiveDirectory, Excel, SharePoint, Visio in developing an optimal Compliance Monitoring Dashboard. ",
+				"Effectively generated reports and data visualisation using Microsoft PowerBI ",
+				"Gained valuable knowledge on Level 3 Application support ",
+				"Worked efficiently with managing offshore clients, taking calls, queue management, picking up tickets on HP Service Manager and handling tickers of varying severity ",
+				"Collaborated closely with team members in managing the process of applications from pre-production to production environment "
+			]
+		},
+		{
+			"company": "Australian Turf Club",
+			"current": true,
+			"position": "Customer Service Representative",
+			"website": "http://www.australianturfclub.com.au/",
+			"startDate": "March 2017",
+			"endDate": "Present",
+			"summary": "Bartender, Event and Logistics Staff",
+			"highlights": ["Held similar positions at Alseasons Hospitality, The Star Entertainment Group, Benchmarque"]
+		},
+		{
+			"company": "Public Outreach Australia",
+			"current": false,
+			"position": "Face to Face Fundraiser",
+			"website": "https://www.publicoutreachaustralia.com/",
+			"startDate": "January 2016",
+			"endDate": "March 2016",
+			"summary": "Fundraiser for LIFELINE Australia",
+			"highlights": []
+		}
+	],
+	"projects": [
+		{
+			"company": "Thesis",
+			"current": true,
+			"position": "",
+			"website": "http://www.ahclawyers.com/",
+			"startDate": "August 2018",
+			"endDate": "August 2019",
+			"summary": "Designing a Learning Analytics Dashboard to improve student learning and retention",
+			"highlights": [
+				"Focus areas: Data Analytics, Human Computer Interaction, Machine Learning, Data Services Engineering"
+			]
+		},
+		{
+			"company": "PlebForce (a super light weight inspiration from Salesforce)",
+			"current": false,
+			"position": "",
+			"website": "http://www.nestlé.com.au",
+			"startDate": "October 2018",
+			"endDate": "November 2018",
+			"summary": "Developed a Web Service to act as a lightweight CRM using Yellow Pages",
+			"highlights": ["Tools used – ReactJS with Bootstrap, Firebase, Firebase Realtime Database, Python"]
+		},
+		{
+			"company": "Data Services Engineering Project with Machine Learning",
+			"current": false,
+			"position": "",
+			"website": "https://github.com/NeilBaksi/COMP9321Ass3",
+			"startDate": "October 2018",
+			"endDate": "November 2018",
+			"summary": "Developed a Web Service to predict crime statistics of a given suburb of NSW and correlate that to the median housing prices so as to find a relationship between them",
+			"link": "https://github.com/NeilBaksi/COMP9321Ass3",
+			"highlights": [
+				"Tools used – ReactJS with Materialize, Python with SciKit, Pandas, and Flask+RESTPlus, MongoDB",
+				"The GitHub repository of the Project can be found at:"
+			]
+		},
+		{
+			"company": "Software Engineering Project 3",
+			"current": false,
+			"position": "",
+			"website": "https://github.com/NeilBaksi/",
+			"startDate": "March 2018",
+			"endDate": "May 2018",
+			"summary": "Developed a Web Service to show correlation between social media influencer activity and stocks",
+			"highlights": [
+				"Tools used - ReactJS with Materialize, ChartJS, Python+Flask, MongoDB, Heroku, Facebook Graph API, Twitter API, IBM Watson’s NLP API"
+			]
+		},
+		{
+			"company": "Software Engineering Project 2",
+			"current": false,
+			"position": "",
+			"website": "https://github.com/NeilBaksi/",
+			"startDate": "August 2017",
+			"endDate": "November 2017",
+			"summary": "Developed a Web Service to showcase complete profile of a given suburb of NSW",
+			"link": "https://goo.gl/31TmZq",
+			"highlights": [
+				"Tools used - ReactJS with Bootstrap, NodeJS, Express, MongoDB, Heroku, Domain API, Wikipedia API, Google Places API, Bing News API, Instagram API",
+				"Prototypes built with Photoshop can be found on the link below:"
+			]
+		}
+	],
+	"education": [
+		{
+			"institution": "University of New South Wales",
+			"area": "Engineering (Software) - Honours",
+			"studyType": "Bachelors",
+			"startDate": "2015",
+			"endDate": "2019",
+			"gpa": "74"
+		}
+	],
+	"skills": {
+		"name": "Web Development",
+		"level": "Mid-Level",
+		"keywords": [
+			"Javascript",
+			"React JS",
+			"HTML5",
+			"CSS3",
+			"Node JS",
+			"jQuery",
+			"MySQL",
+			"Mongo DB",
+			"Enzyme",
+			"Git",
+			"Firebase",
+			"C",
+			"JAVA",
+			"Perl",
+			"Python",
+			"Powershell",
+			"Adobe Suite - Photoshop, Lightroom, XD, Dreamweaver, Spark",
+			"CMS - Shopify, BigCommerce, Squarespace, Wordpress, Wix"
+		]
+	}
 }
