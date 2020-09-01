@@ -154,6 +154,13 @@
 .jobs-flex div {
 	font-weight: 400;
 }
+.jobs-links {
+	text-decoration: underline;
+	color: #fff;
+}
+.jobs-links:hover {
+	color: #ffffffaa;
+}
 
 .job-summary {
 	line-height: 1.5;

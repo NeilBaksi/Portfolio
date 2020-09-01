@@ -17,14 +17,20 @@ const Contact = props => {
 					<a
 						href="mailto:snb.1996@gmail.com.com?subject=Resume%20Inquiry"
 						style={{ color: "#4a4a4a", textDecoration: "none" }}>
-						📧 : {email}
+						<span role="img" aria-label="email">
+							📧
+						</span>{" "}
+						: {email}
 					</a>
 					<a
 						href="https://github.com/NeilBaksi/"
 						style={{ color: "#4a4a4a", textDecoration: "none" }}
 						target="_blank"
 						rel="noopener noreferrer">
-						💻 : https://github.com/NeilBaksi/
+						<span role="img" aria-label="github">
+							💻
+						</span>{" "}
+						: https://github.com/NeilBaksi/
 					</a>
 				</CSSTransitionGroup>
 			</div>
