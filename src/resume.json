@@ -2,10 +2,10 @@
 	"basics": {
 		"name": " Supratik Baksi \"Neil\"",
 		"label": "Bachelors of Engineering (Software) Graduate",
-		"email": "snb.1996@gmail.com",
+		"email": "me@snbaksi.com",
 		"phone": "+61 413-415-467",
 		"website": "https://www.snbaksi.com",
-		"summary": "Bachelors of Engineering (Software) Graduate currently working at EnterOffer Pvt. Ltd. as a Front End Website Developer by applying my experience in UI/UX Design and Web Development and leveraging new and existing technologies, and implementing effective solutions.",
+		"summary": "Bachelors of Engineering (Software) Graduate currently working at EnterOffer Pvt. Ltd. as a Lead Software Developer by applying my experience in UI/UX Design and Web Development and leveraging new and existing technologies, and implementing effective solutions.",
 		"interests": "Key Interests – Website Development, User Interaction/Experience Design, Data Analytics, Machine Learning, Online Marketing",
 		"extraInterests": "Volunteering 🤗, Football ⚽, Athletics 🏃, Karate, Debating",
 		"location": {
@@ -28,20 +28,34 @@
 			"company": "EnterOffer",
 			"current": true,
 			"position": "Software Developer",
-			"website": "http://www.enteroffer.com/",
+			"website": "https://www.enteroffer.com/",
 			"startDate": "March 2019",
 			"endDate": "Present",
-			"summary": "Front End Web Developer",
+			"summary": "Lead Software Developer",
 			"highlights": [
-				"Assist in the designing, creation and development of Oaklas website and features using ReactJS and other front end technologies, and integrated with Firebase Database, Storage and hosted over AWS",
+				"Assist in the designing, creation and development of EnterOffer website and features using ReactJS and other front end technologies, and integrated with Firebase Database, Storage and hosted over AWS",
 				"Exposed to eCommerce website builders like Shopify, Wix, BigCommerce"
+			]
+		},
+		{
+			"company": "Shimmer Bazaar",
+			"current": true,
+			"position": "Co-Director",
+			"website": "https://shimmerbazaar.com/",
+			"startDate": "March 2020",
+			"endDate": "Present",
+			"summary": "Director,Store Manager, Shopify Developer",
+			"highlights": [
+				"Creation and maintainace of Beauty & Fashion eCommerce Store on Shopify",
+				"Assist in SEO and social media marketting",
+				"Assist with Facebook Ads, Google Ads, etc."
 			]
 		},
 		{
 			"company": "Agape Henry Crux",
 			"current": false,
 			"position": "IT Intern",
-			"website": "http://www.ahclawyers.com/",
+			"website": "https://www.ahclawyers.com/",
 			"startDate": "November 2018",
 			"endDate": "March 2019",
 			"summary": "Provide Level 1 IT Support – Manage the software and hardware infrastructure and Website Administrator",
@@ -55,7 +69,7 @@
 			"company": "Nestlé Australia – Regional Globe Office",
 			"current": false,
 			"position": "Complementary Applications Team Intern",
-			"website": "http://www.nestlé.com.au",
+			"website": "https://www.nestlé.com.au",
 			"startDate": "December 2017",
 			"endDate": "March 2018",
 			"summary": "Developed an Application Compliance Monitoring Dashboard for pre-production and production servers",
@@ -71,7 +85,7 @@
 			"company": "Australian Turf Club",
 			"current": true,
 			"position": "Customer Service Representative",
-			"website": "http://www.australianturfclub.com.au/",
+			"website": "https://www.australianturfclub.com.au/",
 			"startDate": "March 2017",
 			"endDate": "Present",
 			"summary": "Bartender, Event and Logistics Staff",
@@ -97,9 +111,7 @@
 			"startDate": "August 2018",
 			"endDate": "August 2019",
 			"summary": "Designing a Learning Analytics Dashboard to improve student learning and retention",
-			"highlights": [
-				"Focus areas: Data Analytics, Human Computer Interaction, Machine Learning, Data Services Engineering"
-			]
+			"highlights": ["Focus areas: Data Analytics, Human Computer Interaction, Machine Learning, Data Services Engineering"]
 		},
 		{
 			"company": "PlebForce (a super light weight inspiration from Salesforce)",
@@ -168,6 +180,7 @@
 		"keywords": [
 			"Javascript",
 			"React JS",
+			"Liquid(Shopify)",
 			"HTML5",
 			"CSS3",
 			"Node JS",
