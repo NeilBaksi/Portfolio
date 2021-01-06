@@ -5,9 +5,9 @@
 		"email": "me@snbaksi.com",
 		"phone": "+61 413-415-467",
 		"website": "https://www.snbaksi.com",
-		"summary": "Bachelors of Engineering (Software) Graduate currently working at EnterOffer Pvt. Ltd. as a Lead Software Developer by applying my experience in UI/UX Design and Web Development and leveraging new and existing technologies, and implementing effective solutions.\n I also Freelance as a Shopify Developer and a React Developer.",
+		"summary": "Bachelors of Engineering (Software) Graduate currently working at Limepay Pty Ltd. as a Front-End Developer by applying my experience in UI/UX Design and Web Development and leveraging new and existing technologies, and implementing effective solutions.\n I also Freelance as a Shopify Developer and a React Developer.",
 		"interests": "Key Interests – Website Development, User Interaction/Experience Design, Data Analytics, Machine Learning, Online Marketing",
-		"extraInterests": "Volunteering 🤗, Football ⚽, Athletics 🏃, Karate, Debating",
+		"extraInterests": "Football ⚽, Athletics 🏃, Karate, Debating, Volunteering 🤗",
 		"location": {
 			"address": "Unit 502A, 10-16 Marquet Street, RHODES NSW 2138",
 			"postalCode": "2138",
@@ -25,12 +25,24 @@
 	},
 	"work": [
 		{
-			"company": "EnterOffer",
+			"company": "Limepay",
 			"current": true,
+			"position": "Front-End Developer",
+			"website": "https://www.enteroffer.com/",
+			"startDate": "November 2020",
+			"endDate": "Present",
+			"summary": "Front-End Developer",
+			"highlights": [
+				"Assist in the development of Limpay-Domain (https://www.domain.com.au/) joint venture - MarketNow in ReactJS/Redux and miscellaneous other tasks relating to marketing - websites and emails."
+			]
+		},
+		{
+			"company": "EnterOffer",
+			"current": false,
 			"position": "Software Developer",
 			"website": "https://www.enteroffer.com/",
 			"startDate": "March 2019",
-			"endDate": "Present",
+			"endDate": "November 2020",
 			"summary": "Lead Software Developer",
 			"highlights": [
 				"Assist in the designing, creation and development of EnterOffer website and features using ReactJS and other front end technologies, and integrated with Firebase Database, Storage and hosted over AWS",
@@ -179,7 +191,9 @@
 		"level": "Mid-Level",
 		"keywords": [
 			"Javascript",
+			"TypeScript",
 			"React JS",
+			"Redux",
 			"Liquid(Shopify)",
 			"HTML5",
 			"CSS3",
