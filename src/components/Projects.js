@@ -9,7 +9,7 @@ class Projects extends Component {
 			<div className="Card-Container">
 				<div className="Card-content">
 					{projects.map((key, index) => {
-						return <Jobs key={index} details={projects[index]} colors={bgColors[index]} />;
+						return <Jobs key={index} details={projects[index]} colors={bgColors[index % 4]} />;
 					})}
 				</div>
 			</div>

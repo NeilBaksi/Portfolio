@@ -10,7 +10,7 @@ class Card extends Component {
 			<div className="Card-Container">
 				<div className="Card-content">
 					{work.map((key, index) => {
-						return <Jobs key={index} details={work[index]} colors={bgColors[index]} />;
+						return <Jobs key={index} details={work[index]} colors={bgColors[index % 4]} />;
 					})}
 				</div>
 			</div>
