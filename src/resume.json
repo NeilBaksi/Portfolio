@@ -28,12 +28,17 @@
 			"company": "Limepay",
 			"current": true,
 			"position": "Front-End Developer",
-			"website": "https://www.enteroffer.com/",
+			"website": "https://www.limepay.com.au/",
 			"startDate": "November 2020",
 			"endDate": "Present",
 			"summary": "Front-End Developer",
 			"highlights": [
-				"Assist in the development of Limepay-Domain (https://www.domain.com.au/) joint venture - MarketNow in ReactJS/Redux and miscellaneous other tasks relating to marketing - websites and emails."
+				"Assist in the development of Limepay-Domain (https://www.domain.com.au/) joint venture - MarketNow in ReactJS/Redux and miscellaneous other tasks relating to marketing - websites and emails.",
+				"Assist in maintaining the Limepay website and linked marketing pages in Gatsby.js with Netlify",
+				"Converted and developed the Limepay Customer, Merchant and Admin dashboards for the Limepay core BNPL product from PUG(Node.js) to ReactJS/Redux.",
+				"Assist in UI development by closely working with UI Designer in Figma",
+				"Maintain units tests using JEST, Enzyme and E2E tests using Cypress",
+				"Maintain company email templates in BeePro and Amazon SES"
 			]
 		},
 		{
