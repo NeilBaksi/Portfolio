@@ -205,13 +205,19 @@
 	.card-container {
 		overflow: auto;
 	}
-	.header-container,
+	.card-content,
 	.card-container,
 	.modal-container {
 		height: 100vh;
 	}
-	.card-content {
+	.header-container {
 		height: 100vh;
+		overflow: auto;
+	}
+	.header-content {
+		margin-top: 50px;
+		position: relative;
+		overflow: scroll;
 	}
 	.bg-gray {
 		background: #fafafa;
