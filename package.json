@@ -9,7 +9,9 @@
 		"react-dom": "^15.5.4",
 		"react-download-link": "^2.2.0",
 		"react-router": "4.0.0-alpha.4",
-		"react-router-dom": "^4.3.1"
+		"react-router-dom": "^4.3.1",
+		"react-tsparticles": "^2.1.0",
+		"tsparticles": "^2.1.0"
 	},
 	"devDependencies": {
 		"react-scripts": "^3.4.1"

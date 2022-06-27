@@ -44,47 +44,57 @@
 	display: none;
 }
 
-.Header-Container,
-.Card-Container,
-.Modal-Container {
+.header-container,
+.card-container,
+.modal-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 }
 
-.Header-Container {
+.header-container {
 	background: #fafafa;
-	width: 40%;
+	width: 45%;
 	padding: 30px;
 	position: relative;
 }
 
-.Card-Container,
-.Modal-Container {
-	width: 60%;
+.card-container,
+.modal-container {
+	width: 55%;
 }
 
-.Header-Container .Header-content {
+.header-container .header-content {
 	/*margin: 0 127px 0 30px;*/
 	display: flex;
 	flex-direction: column;
 }
 
-.Header-name {
+.header-name {
 	font-weight: 900;
 	color: #4a4a4a;
 }
-.Header-name-modal {
+.header-name-modal {
 	font-weight: 900;
 	color: #4a4a4a;
 }
+
+.scroll-prompt {
+	display: none;
+	position: absolute;
+	bottom: 5px;
+	justify-content: space-between;
+	width: 100%;
+	padding: 0px 30px;
+}
+
 @media only screen and (max-width: 600px) {
-	.Header-name {
+	.header-name {
 		font-weight: 900;
 		color: #4a4a4a;
 	}
-	.Header-content {
+	.header-content {
 		margin-top: 20px;
 	}
 	.App__pages {
@@ -96,17 +106,20 @@
 		list-style: none;
 		display: flex;
 	}
+	.scroll-prompt {
+		display: inline-flex;
+	}
 }
 
-.Header-Container .Header-label {
+.header-container .header-label {
 	font-weight: 400;
 }
 
-.Header-Container .Header-desc {
-	font-weight: 200;
+.header-container .header-desc {
+	font-weight: 300;
 }
 
-.Skills-list {
+.skills-list {
 	display: flex;
 	flex-flow: row wrap;
 	list-style: none;
@@ -117,26 +130,28 @@
 	color: white;
 	padding: 9px;
 	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
-	border: solid #3b80fe;
+	border: solid #03045e;
 	border-radius: 2px;
 	cursor: pointer;
+	font-family: inherit;
 }
 .chips.blue {
-	background: #3b80fe;
+	background: #03045e;
 }
 .chips:hover {
 	background-color: #ffffff;
-	border: solid #3b80fe;
-	color: #3b80fe;
+	border: solid #03045e;
+	color: #03045e;
 }
 
-.Card-content {
+.card-content {
 	width: 100%;
 }
 
-.Jobs-container {
+.jobs-container {
 	background: #54e7c7;
-	color: #fafafa;
+	color: #f9f9f9;
+	text-shadow: 0px 0px 10px #001f54;
 	width: 100%;
 	/*height: 90%;*/
 	padding: 50px;
@@ -154,9 +169,10 @@
 .jobs-flex div {
 	font-weight: 400;
 }
-.jobs-links {
-	text-decoration: underline;
+.jobs-links,
+.jobs-links > * {
 	color: #fff;
+	display: flex;
 }
 .jobs-links:hover {
 	color: #ffffffaa;
@@ -171,16 +187,30 @@
 	font-weight: 200;
 }
 
+.skills-container {
+	padding: 50px;
+	overflow: auto;
+}
+
+.links {
+	color: #ffffff;
+	cursor: pointer;
+}
+.link-icon {
+	zoom: 0.5;
+	text-decoration: none;
+}
+
 @media (min-width: 991px) {
-	.Card-Container {
+	.card-container {
 		overflow: auto;
 	}
-	.Header-Container,
-	.Card-Container,
-	.Modal-Container {
+	.header-container,
+	.card-container,
+	.modal-container {
 		height: 100vh;
 	}
-	.Card-content {
+	.card-content {
 		height: 100vh;
 	}
 	.bg-gray {
@@ -192,15 +222,15 @@
 	.App {
 		flex-direction: column;
 	}
-	.Header-Container,
-	.Card-Container {
+	.header-container,
+	.card-container {
 		width: 100vw;
 	}
-	.Header-Container {
+	.header-container {
 		font-size: 24px;
 		height: 100vh;
 	}
-	.Modal-Container {
+	.modal-container {
 		display: none;
 		position: fixed;
 		z-index: 1;
@@ -214,13 +244,20 @@
 	}
 
 	/* Modal Content/Box */
-	.Modal-content {
+	.modal-content {
 		background-color: #fefefe;
 		margin: 15% auto; /* 15% from the top and centered */
 		padding: 20px;
+		max-height: 80%;
+		width: 100%;
+		overflow: auto;
 		/*border: 1px solid #888;*/
 		/* width: 80%; Could be more or less, depending on screen size */
 	}
+	.skills-container {
+		padding: 0px !important;
+	}
+
 	.made-with-react {
 		display: none;
 	}
@@ -228,16 +265,16 @@
 		display: block;
 		text-align: center;
 	}
-	.Header-Text {
+	.header-text {
 		font-size: 16px;
 	}
 }
 
 @media (max-width: 450px) {
-	.Header-Container {
+	.header-container {
 		font-size: 18px;
 	}
-	.Header-Container .Skills-list .Skills-chips {
+	.header-container .skills-list .Skills-chips {
 		font-size: 12px;
 		font-weight: bold;
 		margin: 3px 5px 3px 0;

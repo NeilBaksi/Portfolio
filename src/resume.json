@@ -1,15 +1,15 @@
 {
 	"basics": {
-		"name": " Supratik Baksi \"Neil\"",
+		"name": " Supratik \"Neil\" Baksi",
 		"label": "Bachelors of Engineering (Software) Graduate",
 		"email": "me@snbaksi.com",
 		"phone": "+61 413-415-467",
 		"website": "https://www.snbaksi.com",
-		"summary": "Bachelors of Engineering (Software) Graduate currently working at Limepay Pty Ltd. as a Front-End Developer by applying my experience in UI/UX Design and Web Development and leveraging new and existing technologies, and implementing effective solutions.\n I also Freelance as a Shopify Developer and a React Developer.",
-		"interests": "Key Interests – Website Development, User Interaction/Experience Design, Data Analytics, Machine Learning, Online Marketing",
-		"extraInterests": "Football ⚽, Athletics 🏃, Karate, Debating, Volunteering 🤗",
+		"summary": "Bachelors of Engineering (Software) Honours Graduate currently working at Limepay Pty Ltd. as a Front-End Developer by applying my experience in UI/UX Design and Web Development and leveraging new and existing technologies, and implementing effective solutions.\n I also Freelance as a Shopify Developer and a React Developer.",
+		"interests": "Website Development, User Interaction/Experience Design, Data Analytics, Machine Learning, Online Marketing",
+		"extraInterests": "Football ⚽, Gaming 🎮, Travelling ✈️, Athletics 🏃, Karate 🥋, Debating 🗣️, Volunteering 🤗",
 		"location": {
-			"address": "Unit 502A, 10-16 Marquet Street, RHODES NSW 2138",
+			"address": "Unit 705B, 3 Timbrol Avenue, RHODES NSW 2138",
 			"postalCode": "2138",
 			"city": "Sydney",
 			"countryCode": "AUS",
@@ -21,7 +21,8 @@
 				"username": "neilbaksi",
 				"url": "http://instagram.com/neilbaksi"
 			}
-		]
+		],
+		"pallete": ["#03045e", "#023e8a", "#0077b6", "#0096c7", "#00b4d8", "#48cae4", "#90e0ef", "#ade8f4", "#caf0f8"]
 	},
 	"work": [
 		{
@@ -35,17 +36,18 @@
 			"highlights": [
 				"Assist in the development of Limepay-Domain (https://www.domain.com.au/) joint venture - MarketNow in ReactJS/Redux and miscellaneous other tasks relating to marketing - websites and emails.",
 				"Assist in maintaining the Limepay website and linked marketing pages in Gatsby.js with Netlify",
+				"Assist in creation and maintenance of the Limepay Developer Docs with Redocly",
 				"Converted and developed the Limepay Customer, Merchant and Admin dashboards for the Limepay core BNPL product from PUG(Node.js) to ReactJS/Redux.",
-				"Assist in UI development by closely working with UI Designer in Figma",
+				"Assist in UI development by closely working with UI/UX Designer in Figma",
 				"Maintain units tests using JEST, Enzyme and E2E tests using Cypress",
 				"Maintain company email templates in BeePro and Amazon SES"
 			]
 		},
 		{
-			"company": "EnterOffer",
+			"company": "Goodscast (formally EnterOffer)",
 			"current": false,
 			"position": "Software Developer",
-			"website": "https://www.enteroffer.com/",
+			"website": "https://goodscast.com/",
 			"startDate": "March 2019",
 			"endDate": "November 2020",
 			"summary": "Lead Software Developer",
@@ -56,16 +58,16 @@
 		},
 		{
 			"company": "Shimmer Bazaar",
-			"current": true,
+			"current": false,
 			"position": "Co-Director",
-			"website": "https://shimmerbazaar.com/",
+			"website": "https://www.instagram.com/shimmerbazaar/",
 			"startDate": "March 2020",
-			"endDate": "Present",
-			"summary": "Director,Store Manager, Shopify Developer",
+			"endDate": "February 2022",
+			"summary": "Director,Store Manager, Shopify Developer, Marketting Head",
 			"highlights": [
 				"Creation and maintainace of Beauty & Fashion eCommerce Store on Shopify",
-				"Assist in SEO and social media marketting",
-				"Assist with Facebook Ads, Google Ads, etc."
+				"Manager of SEO and social media marketting",
+				"Manager of Facebook Ads, Instagram Ads, Google Ads, etc."
 			]
 		},
 		{
@@ -124,11 +126,13 @@
 			"company": "Thesis",
 			"current": true,
 			"position": "",
-			"website": "https://drive.google.com/open?id=1R58VB8k2yPh1RLSLsqQENQTGt1ir2K9n",
+			"website": "https://drive.google.com/file/d/1gpL-a7-1x3HpPZrTvVW9Q1Ztx5_xihTG/view?usp=sharing",
 			"startDate": "August 2018",
 			"endDate": "August 2019",
 			"summary": "Designing a Learning Analytics Dashboard to improve student learning and retention",
-			"highlights": ["Focus areas: Data Analytics, Human Computer Interaction, Machine Learning, Data Services Engineering"]
+			"link": "https://drive.google.com/file/d/1gpL-a7-1x3HpPZrTvVW9Q1Ztx5_xihTG/view?usp=sharing",
+			"highlights": ["Focus areas: Data Analytics, Human Computer Interaction, Machine Learning, Data Services Engineering",
+			"Link to the thesis can be found at:"]
 		},
 		{
 			"company": "PlebForce (a super light weight inspiration from Salesforce)",
@@ -199,6 +203,10 @@
 			"TypeScript",
 			"React JS",
 			"Redux",
+			"Gatsby JS",
+			"Next JS",
+			"Webflow",
+			"Cypress",
 			"Liquid(Shopify)",
 			"HTML5",
 			"CSS3",
@@ -206,6 +214,7 @@
 			"jQuery",
 			"MySQL",
 			"Mongo DB",
+			"JEST",
 			"Enzyme",
 			"Git",
 			"Firebase",
@@ -214,6 +223,8 @@
 			"Perl",
 			"Python",
 			"Powershell",
+			"Protoyping - Figma, Adobe XD, Balsamiq, Axure, Miro",
+			"Project Management – Pivotal Tracker, ASANA, JIRA, Slack, Trello, ClubHouse",
 			"Adobe Suite - Photoshop, Lightroom, XD, Dreamweaver, Spark",
 			"CMS - Shopify, BigCommerce, Squarespace, Wordpress, Wix"
 		]
