@@ -8,7 +8,6 @@ class Jobs extends Component {
 			<div className="card-container">
 				<div className="card-content">
 					{work.map((key, index) => {
-						console.log(basics.pallete[index % 9]);
 						return <List id={key} key={index} details={work[index]} colors={basics.pallete[index % 9]} />;
 					})}
 				</div>

@@ -1,11 +1,11 @@
 {
 	"basics": {
 		"name": " Supratik \"Neil\" Baksi",
-		"label": "Bachelors of Engineering (Software) Graduate",
+		"label": "Bachelors of Engineering (Software) Graduate, UNSW",
 		"email": "me@snbaksi.com",
 		"phone": "+61 413-415-467",
 		"website": "https://www.snbaksi.com",
-		"summary": "Bachelors of Engineering (Software) Honours Graduate currently working at Limepay Pty Ltd. as a Front-End Developer by applying my experience in UI/UX Design and Web Development and leveraging new and existing technologies, and implementing effective solutions.\n I also Freelance as a Shopify Developer and a React Developer.",
+		"summary": "I am a Front-End Developer (with experience as a Full-Stack) that applies his experience in UI/UX Design and Web Development and leverages new and existing technologies, and implements effective solutions.\n I also Freelance as a Shopify Developer and a React Developer.",
 		"interests": "Website Development, User Interaction/Experience Design, Data Analytics, Machine Learning, Online Marketing",
 		"extraInterests": "Football ⚽, Gaming 🎮, Travelling ✈️, Athletics 🏃, Karate 🥋, Debating 🗣️, Volunteering 🤗",
 		"location": {
@@ -13,13 +13,27 @@
 			"postalCode": "2138",
 			"city": "Sydney",
 			"countryCode": "AUS",
-			"region": "NSW"
+			"region": "NSW",
+			"emoji": "🦘"
 		},
 		"profiles": [
 			{
+				"network": "LinkedIn",
+				"username": "Neil Supratik Baksi",
+				"url": "https://www.linkedin.com/in/neil-supratik-baksi/",
+				"emoji": "👔"
+			},
+			{
+				"network": "Github",
+				"username": "neilbaksi",
+				"url": "https://github.com/NeilBaksi",
+				"emoji": "💻"
+			},
+			{
 				"network": "Instagram",
 				"username": "neilbaksi",
-				"url": "http://instagram.com/neilbaksi"
+				"url": "http://instagram.com/neilbaksi",
+				"emoji": "📸"
 			}
 		],
 		"pallete": ["#03045e", "#023e8a", "#0077b6", "#0096c7", "#00b4d8", "#48cae4", "#90e0ef", "#ade8f4", "#caf0f8"]
@@ -27,24 +41,26 @@
 	"work": [
 		{
 			"company": "Limepay",
-			"current": true,
+			"current": false,
 			"position": "Front-End Developer",
 			"website": "https://www.limepay.com.au/",
 			"startDate": "November 2020",
-			"endDate": "Present",
+			"endDate": "November 2022",
 			"summary": "Front-End Developer",
 			"highlights": [
-				"Assist in the development of Limepay-Domain (https://www.domain.com.au/) joint venture - MarketNow in ReactJS/Redux and miscellaneous other tasks relating to marketing - websites and emails.",
+				"Assist with the development and integration of Limepay’s core product STACK – an embeddable all in one payments solution integrated with international payment processors under the hood in React-Typescript/Redux with React-Hooks while working in an Agile -SCRUM system and Domain-Driven-Design.",
+				"Develop reusable and scalable React components to be used across Limepay’s offerings – In-store checkout, customer/merchant and internal dashboards, etc; in React-Typescript/Redux. with React-Hooks",
+				"Assist in the development and maintenance of the Limepay Design System – Cosmic; in React- Typescript/Redux with React-Hooks.",
+				"Responsible for the development of Limepay-Domain (https://www.domain.com.au/) joint venture - MarketNow in React-TS/Redux with React-Hooks and miscellaneous other tasks relating to marketing - websites and emails; all in a Specification by Example development process.",
 				"Assist in maintaining the Limepay website and linked marketing pages in Gatsby.js with Netlify",
-				"Assist in creation and maintenance of the Limepay Developer Docs with Redocly",
-				"Converted and developed the Limepay Customer, Merchant and Admin dashboards for the Limepay core BNPL product from PUG(Node.js) to ReactJS/Redux.",
-				"Assist in UI development by closely working with UI/UX Designer in Figma",
-				"Maintain units tests using JEST, Enzyme and E2E tests using Cypress",
-				"Maintain company email templates in BeePro and Amazon SES"
+				"Converted and developed the Limepay Customer, Merchant, and Admin dashboards for the Limepay core BNPL product from PUG(Node.js) to React-TS/Redux.",
+				"Assist in UI/UX development by closely working with UI/UX Designer in Figma and Miro.",
+				"Maintain unit tests using JEST, Enzyme and E2E tests using Cypress.",
+				"Maintain company email templates in BeePro and Amazon SES."
 			]
 		},
 		{
-			"company": "Goodscast (formally EnterOffer)",
+			"company": "Goodscast (formally EnterOffer, formally Oaklas)",
 			"current": false,
 			"position": "Software Developer",
 			"website": "https://goodscast.com/",

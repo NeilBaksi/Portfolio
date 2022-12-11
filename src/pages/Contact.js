@@ -2,7 +2,7 @@ import React from "react";
 import CSSTransitionGroup from "react-addons-css-transition-group";
 
 const Contact = (props) => {
-	const { email } = props.info;
+	const { email, profiles } = props.info;
 	const layout = { display: "flex", flexDirection: "column", alignItems: "flex-start" };
 	return (
 		<div className="modal-container bg-gray" style={{ display: "flex" }}>
@@ -15,12 +15,16 @@ const Contact = (props) => {
 						</span>{" "}
 						: {email}
 					</a>
-					<a href="https://github.com/NeilBaksi/" style={{ color: "#4a4a4a", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
-						<span role="img" aria-label="github">
-							💻
-						</span>{" "}
-						: https://github.com/NeilBaksi/
-					</a>
+					{profiles.map((key, index) => {
+						return (
+							<a href={key.url} key={index} style={{ color: "#4a4a4a", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
+								<span role="img" aria-label={key.network}>
+									{key.emoji}
+								</span>{" "}
+								: {key.url}
+							</a>
+						);
+					})}
 				</CSSTransitionGroup>
 			</div>
 		</div>
