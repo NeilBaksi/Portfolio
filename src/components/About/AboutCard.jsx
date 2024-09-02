@@ -12,7 +12,7 @@ const AboutCard = ({ resume }) => {
 					<p className="home-about-body">
 						I am <span className="purple">{resume.basics.name}</span> from <span className="purple">{resume.basics.location.city}, {resume.basics.location.country}.</span>
 						<br />
-						Currently employed as a software developer at <span className="purple">{currentWork.company}</span>.
+						Currently employed as a <span className="purple">{currentWork.position}</span> at <span className="purple">{currentWork.company}</span>.
 						<br />
 						{resume.basics.label}
 						<br />

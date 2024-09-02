@@ -2,11 +2,12 @@
 	"basics": {
 		"salutation": "Hi there!",
 		"name": " Supratik \"Neil\" Baksi",
+		"initials": "SNB",
 		"label": "Bachelors of Engineering (Honours)(Software) Graduate from UNSW",
 		"email": "me@snbaksi.com",
-		"phone": "+61 413-415-467",
+		"phone": "",
 		"website": "https://www.snbaksi.com",
-		"summary": "I am a dynamic Front-End Developer with a strong foundation in Full-Stack development, specialising in Web Development and UI/UX Design. I excel at crafting intuitive, high-performance digital experiences by leveraging cutting-edge technologies and innovative solutions.\n\nI also freelance as a Shopify and Javascript Developer, where I apply my expertise to build seamless, user-centric e-commerce platforms.\n\nMy passion lies in bridging the gap between design and technology, consistently delivering impactful solutions that enhance user engagement and drive business success.",
+		"summary": "I am a dynamic Front-End Developer with a strong foundation in Full-Stack development, specialising in Web Development and UI/UX Design. I excel at crafting intuitive, high-performance digital experiences by leveraging cutting-edge technologies and innovative solutions.\n\nI am an MBA candidate at Melbourne Business School.\n\nI also freelance as a Shopify and Javascript Developer, where I apply my expertise to build seamless, user-centric e-commerce platforms.\n\nMy passion lies in bridging the gap between design and technology, consistently delivering impactful solutions that enhance user engagement and drive business success.",
 		"interests": [
 			"Website Development",
 			"User Interaction/Experience Design",
@@ -27,7 +28,7 @@
 		],
 		"labels": [
 			"Software Developer",
-			"MBA Aspirant",
+			"MBA Candidate",
 			"Freelancer",
 			"Entrepreneur",
 			"Gooner"
@@ -41,6 +42,12 @@
 			"emoji": "🦘"
 		},
 		"profiles": [
+			{
+				"network": "Email",
+				"username": "me@snbaksi.com",
+				"url": "mailto:me@snbaksi.com",
+				"emoji": "✉️"
+			},
 			{
 				"network": "LinkedIn",
 				"username": "Neil Supratik Baksi",
@@ -77,15 +84,18 @@
 			"endDate": "",
 			"summary": "Front-End Developer",
 			"highlights": [
-				"Assist with the development and integration of Limepay’s core product STACK – an embeddable all in one payments solution integrated with international payment processors under the hood in React-Typescript/Redux with React-Hooks while working in an Agile -SCRUM system and Domain-Driven-Design.",
-				"Develop reusable and scalable React components to be used across Limepay’s offerings – In-store checkout, customer/merchant and internal dashboards, etc; in React-Typescript/Redux. with React-Hooks",
-				"Assist in the development and maintenance of the Limepay Design System – Cosmic; in React- Typescript/Redux with React-Hooks.",
-				"Responsible for the development of Limepay-Domain (https://www.domain.com.au/) joint venture - MarketNow in React-TS/Redux with React-Hooks and miscellaneous other tasks relating to marketing - websites and emails; all in a Specification by Example development process.",
-				"Assist in maintaining the Limepay website and linked marketing pages in Gatsby.js with Netlify",
-				"Converted and developed the Limepay Customer, Merchant, and Admin dashboards for the Limepay core BNPL product from PUG(Node.js) to React-TS/Redux.",
-				"Assist in UI/UX development by closely working with UI/UX Designer in Figma and Miro.",
-				"Maintain unit tests using JEST, Enzyme and E2E tests using Cypress.",
-				"Maintain company email templates in BeePro and Amazon SES."
+				"Developed reusable components for projects throughmodular programming techniques.",
+				"Collaborated with back-end developers to integrate APIs intofront-end designs.",
+				"Ensured maximum compatibility with various browsers through extensive QA testing methods.",
+				"Created automated build processes to streamline the deployment process of web applications.",
+				"Designed and implemented responsive layouts for all devices.",
+				"Monitored page speed performance metrics through Google Analytics and PageSpeed Insights.",
+				"Managed multiple projects simultaneously while adhering to established deadlines.",
+				"Utilized version control systems such as Git to manage project changes.",
+				"Liaised with internal teams to collect and analyze product requirements.",
+				"Performed and directed Web site updates.",
+				"Debugged cross-browser compatibility issues in IE, Chrome, Firefox and Safari.",
+				"Troubleshot coding errors utilizing browser debugging tools such as Firebug or Chrome DevTools."
 			]
 		},
 		{
@@ -153,7 +163,7 @@
 			"company": "Nestlé Australia – Regional Globe Office",
 			"current": false,
 			"position": "Complementary Applications Team Intern",
-			"website": "https://www.nestlé.com.au",
+			"website": "https://www.nestle.com.au",
 			"startDate": "December 2017",
 			"endDate": "March 2018",
 			"summary": "Developed an Application Compliance Monitoring Dashboard for pre-production and production servers",
@@ -167,11 +177,11 @@
 		},
 		{
 			"company": "Australian Turf Club",
-			"current": true,
+			"current": false,
 			"position": "Customer Service Representative",
 			"website": "https://www.australianturfclub.com.au/",
 			"startDate": "March 2017",
-			"endDate": "Present",
+			"endDate": "May 2020",
 			"summary": "Bartender, Event and Logistics Staff",
 			"highlights": ["Held similar positions at Alseasons Hospitality, The Star Entertainment Group, Benchmarque"]
 		},
@@ -179,7 +189,7 @@
 			"company": "Public Outreach Australia",
 			"current": false,
 			"position": "Face to Face Fundraiser",
-			"website": "https://www.publicoutreachaustralia.com/",
+			"website": "https://www.publicoutreach.com.au/",
 			"startDate": "January 2016",
 			"endDate": "March 2016",
 			"summary": "Fundraiser for LIFELINE Australia",

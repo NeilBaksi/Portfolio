@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../assets/avatar.svg";
+import myImg from "../../assets/avatar.png";
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub, AiFillFacebook, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillFacebook, AiFillInstagram, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 
 const Bio = ({ resume }) => {
   return (
@@ -36,6 +36,7 @@ const Bio = ({ resume }) => {
             </p>
             <ul className="home-about-social-links">
               {[
+                { href: resume.basics.profiles.find(profile => profile.network === "Email").url, icon: <AiOutlineMail /> },
                 { href: resume.basics.profiles.find(profile => profile.network === "Github").url, icon: <AiFillGithub /> },
                 { href: resume.basics.profiles.find(profile => profile.network === "LinkedIn").url, icon: <AiFillLinkedin /> },
                 { href: resume.basics.profiles.find(profile => profile.network === "Instagram").url, icon: <AiFillInstagram /> },

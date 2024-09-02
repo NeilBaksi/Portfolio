@@ -15,6 +15,9 @@ import {
 	SiPowershell,
 	SiPerl,
 	SiStorybook,
+	SiAmazonaws,
+	SiGoogleanalytics,
+	SiSalesforce,
 } from "react-icons/si";
 import { TbBrandRedux, TbBrandWebflow, TbBrandCypress } from "react-icons/tb";
 
@@ -44,6 +47,15 @@ const Techstack = () => {
 			</Col>
 			<Col xs={4} md={2} className="tech-icons">
 				<TbBrandRedux />
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+				<SiAmazonaws />
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+				<SiGoogleanalytics />
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+				<SiSalesforce />
 			</Col>
 			<Col xs={4} md={2} className="tech-icons">
 				<SiGatsby />

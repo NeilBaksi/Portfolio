@@ -24,7 +24,7 @@ const App = ({ resume }) => {
 		<Router>
 			<Preloader load={load} />
 			<div className={`App ${load ? "no-scroll" : "scroll"}`}>
-				<Navbar />
+				<Navbar brand={resume.basics.initials} />
 				<ScrollToTop />
 				<Routes>
 					<Route path="/" element={<Home resume={resume} />} />
@@ -34,7 +34,7 @@ const App = ({ resume }) => {
 					<Route path="/resume" element={<Resume resume={resume} />} />
 					<Route path="*" element={<Navigate to="/" />} />
 				</Routes>
-				<Footer />
+				<Footer resume={resume} />
 			</div>
 		</Router>
 	);

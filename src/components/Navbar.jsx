@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { CgGitFork, CgFileDocument } from "react-icons/cg";
 import { AiFillStar, AiOutlineHome, AiOutlineFundProjectionScreen, AiOutlineUser, AiOutlineLaptop } from "react-icons/ai";
 
-const NavBar = () => {
+const NavBar = ({ brand }) => {
   const [expanded, setExpanded] = useState(false);
   const [navColour, setNavColour] = useState(false);
 
@@ -21,7 +21,7 @@ const NavBar = () => {
     <Navbar expanded={expanded} fixed="top" expand="md" className={navColour ? "sticky" : "navbar"}>
       <Container>
         <Navbar.Brand as={Link} to="/" className="d-flex">
-          SNB
+          {brand}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={toggleNavbar}>
           <span></span>
@@ -62,7 +62,7 @@ const NavBar = () => {
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
-              <Button href="https://github.com/NeilBaksi/Portfolio_v2" target="_blank" className="fork-btn-inner">
+              <Button href="https://github.com/NeilBaksi/Portfolio" target="_blank" className="fork-btn-inner">
                 <CgGitFork style={{ fontSize: "1.2em" }} /> <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item>

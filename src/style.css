@@ -16,6 +16,7 @@ html {
 
 .purple {
   color: var(--imp-text-color) !important;
+  font-weight: 700;
 }
 
 button:focus {
@@ -152,6 +153,11 @@ button:focus {
 }
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
+  font-weight: 700;
+}
+.navbar-brand:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
 }
 
 .logo {
@@ -167,6 +173,10 @@ button:focus {
 
 .nav-link {
   padding: 0.8rem 1rem !important;
+}
+.nav-link:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
 }
 
 @media (max-width: 767px) {
@@ -384,19 +394,17 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 1rem #801f95;
-}
-
-.home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  transition: 0.5s;
 }
 
 .social-icons {
   display: inline-block !important;
   padding-right: 1rem;
   padding-left: 1rem;
+}
+.social-icons:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .icon-colour {
@@ -458,78 +466,27 @@ button:focus {
 }
 
 .work-card {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
-  padding-left: 1.5rem !important;
-  padding-right: 1.5rem !important;
+  padding: 1.5rem !important;
   height: auto !important;
 }
 
 .work-card-view {
-  box-shadow: 0 0 2.5rem 0.75rem rgba(129, 72, 144, 0.561) !important;
   color: white !important;
-  background-color: transparent !important;
+  background-color: #220429 !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
-.work-card-view:hover {
-  transform: scale(1.02) !important;
-  overflow: hidden !important;
-  box-shadow: 0 0 5rem 0.75rem rgba(119, 53, 136, 0.459) !important;
-}
-
-.blog-card {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
-  padding-left: 1.5rem !important;
-  padding-right: 1.5rem !important;
-  height: auto !important;
-}
-
-.blog-card-view {
-  background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
-  color: white !important;
-  transition: all 0.5s ease 0s !important;
-  height: 100% !important;
-}
-
-.blog-link {
-  color: white !important;
-  text-decoration: none !important;
-}
-
-.blog-link:hover {
-  cursor: pointer !important;
-}
-
-.blog-card-view:hover {
-  transform: scale(1.02) !important;
-  overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
-}
-
-.card-img-top {
-  padding: 1.25rem !important;
-  opacity: 0.8 !important;
-  border-radius: 0.75rem !important;
-}
-
-.blog-img {
-  padding: 0 !important;
-  opacity: 0.8 !important;
-  border-radius: 0 !important;
-}
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #220429 !important;
+  border-color: #220429 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
+  transition: 0.5s;
   background-color: #6d20c5d7 !important;
   border-color: #6d20c5d7 !important;
 }
@@ -743,16 +700,15 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4rem !important;
-  background-color: #934cce5e !important;
+  background-color: #220429 !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
 }
 
 .fork-btn-inner:hover {
-  transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  transform: scale(1.05);
+  transition: 0.5s;
 }
 .fork-btn-inner::after {
   display: none !important;

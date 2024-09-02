@@ -1,25 +1,29 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { AiFillGithub, AiFillFacebook, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillFacebook, AiFillInstagram, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 
-const Footer = () => {
+const Footer = ({ resume }) => {
 	const year = new Date().getFullYear();
 
 	const socialLinks = [
 		{
-			href: "https://github.com/NeilBaksi",
+			href: resume.basics.profiles.find(profile => profile.network === "Email").url,
+			icon: <AiOutlineMail />,
+		},
+		{
+			href: resume.basics.profiles.find(profile => profile.network === "Github").url,
 			icon: <AiFillGithub />,
 		},
 		{
-			href: "https://au.linkedin.com/in/neil-supratik-baksi",
+			href: resume.basics.profiles.find(profile => profile.network === "LinkedIn").url,
 			icon: <AiFillLinkedin />,
 		},
 		{
-			href: "https://www.instagram.com/neilbaksi/?hl=en",
+			href: resume.basics.profiles.find(profile => profile.network === "Instagram").url,
 			icon: <AiFillInstagram />,
 		},
 		{
-			href: "https://www.facebook.com/supratik.neil.baksi/",
+			href: resume.basics.profiles.find(profile => profile.network === "Facebook").url,
 			icon: <AiFillFacebook />,
 		},
 	];
@@ -28,10 +32,10 @@ const Footer = () => {
 		<Container fluid className="footer">
 			<Row>
 				<Col md="4" className="footer-copywright">
-					<h3>Made by Supratik Neil Baksi</h3>
+					<h3>Made by {resume.basics.name}</h3>
 				</Col>
 				<Col md="4" className="footer-copywright">
-					<h3>Copyright © {year} SNB</h3>
+					<h3>Copyright © {year} {resume.basics.initials}</h3>
 				</Col>
 				<Col md="4" className="footer-body">
 					<ul className="footer-icons">
