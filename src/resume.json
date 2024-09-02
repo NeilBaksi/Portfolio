@@ -1,18 +1,42 @@
 {
 	"basics": {
+		"salutation": "Hi there!",
 		"name": " Supratik \"Neil\" Baksi",
-		"label": "Bachelors of Engineering (Software) Graduate, UNSW",
+		"label": "Bachelors of Engineering (Honours)(Software) Graduate from UNSW",
 		"email": "me@snbaksi.com",
 		"phone": "+61 413-415-467",
 		"website": "https://www.snbaksi.com",
-		"summary": "I am a Front-End Developer (with experience as a Full-Stack) that applies his experience in UI/UX Design and Web Development and leverages new and existing technologies, and implements effective solutions.\n I also Freelance as a Shopify Developer and a React Developer.",
-		"interests": "Website Development, User Interaction/Experience Design, Data Analytics, Machine Learning, Online Marketing",
-		"extraInterests": "Football ⚽, Gaming 🎮, Travelling ✈️, Athletics 🏃, Karate 🥋, Debating 🗣️, Volunteering 🤗",
+		"summary": "I am a dynamic Front-End Developer with a strong foundation in Full-Stack development, specialising in Web Development and UI/UX Design. I excel at crafting intuitive, high-performance digital experiences by leveraging cutting-edge technologies and innovative solutions.\n\nI also freelance as a Shopify and Javascript Developer, where I apply my expertise to build seamless, user-centric e-commerce platforms.\n\nMy passion lies in bridging the gap between design and technology, consistently delivering impactful solutions that enhance user engagement and drive business success.",
+		"interests": [
+			"Website Development",
+			"User Interaction/Experience Design",
+			"Data Analytics",
+			"Machine Learning",
+			"Artifical Intelligence",
+			"e-Commerce",
+			"Online Marketing"
+		],
+		"hobbies": [
+			"Football ⚽",
+			"Gaming 🎮",
+			"Travelling ✈️",
+			"Athletics 🏃",
+			"Karate 🥋",
+			"Debating 🗣️",
+			"Volunteering 🤗"
+		],
+		"labels": [
+			"Software Developer",
+			"MBA Aspirant",
+			"Freelancer",
+			"Entrepreneur",
+			"Gooner"
+		],
 		"location": {
-			"address": "Unit 705B, 3 Timbrol Avenue, RHODES NSW 2138",
+			"address": "",
 			"postalCode": "2138",
 			"city": "Sydney",
-			"countryCode": "AUS",
+			"country": "Australia",
 			"region": "NSW",
 			"emoji": "🦘"
 		},
@@ -34,18 +58,43 @@
 				"username": "neilbaksi",
 				"url": "http://instagram.com/neilbaksi",
 				"emoji": "📸"
+			},
+			{
+				"network": "Facebook",
+				"username": "supratik.neil.baksi",
+				"url": "https://www.facebook.com/supratik.neil.baksi/",
+				"emoji": "👋🏽"
 			}
-		],
-		"pallete": ["#03045e", "#023e8a", "#0077b6", "#0096c7", "#00b4d8", "#48cae4", "#90e0ef", "#ade8f4", "#caf0f8"]
+		]
 	},
 	"work": [
+		{
+			"company": "Optus",
+			"current": true,
+			"position": "Software Developer",
+			"website": "https://www.optus.com.au/",
+			"startDate": "January 2022",
+			"endDate": "",
+			"summary": "Front-End Developer",
+			"highlights": [
+				"Assist with the development and integration of Limepay’s core product STACK – an embeddable all in one payments solution integrated with international payment processors under the hood in React-Typescript/Redux with React-Hooks while working in an Agile -SCRUM system and Domain-Driven-Design.",
+				"Develop reusable and scalable React components to be used across Limepay’s offerings – In-store checkout, customer/merchant and internal dashboards, etc; in React-Typescript/Redux. with React-Hooks",
+				"Assist in the development and maintenance of the Limepay Design System – Cosmic; in React- Typescript/Redux with React-Hooks.",
+				"Responsible for the development of Limepay-Domain (https://www.domain.com.au/) joint venture - MarketNow in React-TS/Redux with React-Hooks and miscellaneous other tasks relating to marketing - websites and emails; all in a Specification by Example development process.",
+				"Assist in maintaining the Limepay website and linked marketing pages in Gatsby.js with Netlify",
+				"Converted and developed the Limepay Customer, Merchant, and Admin dashboards for the Limepay core BNPL product from PUG(Node.js) to React-TS/Redux.",
+				"Assist in UI/UX development by closely working with UI/UX Designer in Figma and Miro.",
+				"Maintain unit tests using JEST, Enzyme and E2E tests using Cypress.",
+				"Maintain company email templates in BeePro and Amazon SES."
+			]
+		},
 		{
 			"company": "Limepay",
 			"current": false,
 			"position": "Front-End Developer",
 			"website": "https://www.limepay.com.au/",
 			"startDate": "November 2020",
-			"endDate": "November 2022",
+			"endDate": "December 2022",
 			"summary": "Front-End Developer",
 			"highlights": [
 				"Assist with the development and integration of Limepay’s core product STACK – an embeddable all in one payments solution integrated with international payment processors under the hood in React-Typescript/Redux with React-Hooks while working in an Agile -SCRUM system and Domain-Driven-Design.",
@@ -140,15 +189,14 @@
 	"projects": [
 		{
 			"company": "Thesis",
-			"current": true,
+			"current": false,
 			"position": "",
 			"website": "https://drive.google.com/file/d/1gpL-a7-1x3HpPZrTvVW9Q1Ztx5_xihTG/view?usp=sharing",
 			"startDate": "August 2018",
 			"endDate": "August 2019",
 			"summary": "Designing a Learning Analytics Dashboard to improve student learning and retention",
 			"link": "https://drive.google.com/file/d/1gpL-a7-1x3HpPZrTvVW9Q1Ztx5_xihTG/view?usp=sharing",
-			"highlights": ["Focus areas: Data Analytics, Human Computer Interaction, Machine Learning, Data Services Engineering",
-			"Link to the thesis can be found at:"]
+			"highlights": ["Focus areas: Data Analytics, Human Computer Interaction, Machine Learning, Data Services Engineering"]
 		},
 		{
 			"company": "PlebForce (a super light weight inspiration from Salesforce)",
@@ -170,8 +218,7 @@
 			"summary": "Developed a Web Service to predict crime statistics of a given suburb of NSW and correlate that to the median housing prices so as to find a relationship between them",
 			"link": "https://github.com/NeilBaksi/COMP9321Ass3",
 			"highlights": [
-				"Tools used – ReactJS with Materialize, Python with SciKit, Pandas, and Flask+RESTPlus, MongoDB",
-				"The GitHub repository of the Project can be found at:"
+				"Tools used – ReactJS with Materialize, Python with SciKit, Pandas, and Flask+RESTPlus, MongoDB"
 			]
 		},
 		{
@@ -196,8 +243,7 @@
 			"summary": "Developed a Web Service to showcase complete profile of a given suburb of NSW",
 			"link": "https://goo.gl/31TmZq",
 			"highlights": [
-				"Tools used - ReactJS with Bootstrap, NodeJS, Express, MongoDB, Heroku, Domain API, Wikipedia API, Google Places API, Bing News API, Instagram API",
-				"Prototypes built with Photoshop can be found on the link below:"
+				"Tools used - ReactJS with Bootstrap, NodeJS, Express, MongoDB, Heroku, Domain API, Wikipedia API, Google Places API, Bing News API, Instagram API"
 			]
 		}
 	],
