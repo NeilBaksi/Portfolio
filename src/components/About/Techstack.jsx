@@ -12,14 +12,13 @@ import {
 	SiHtml5,
 	SiJquery,
 	SiJest,
-	SiPowershell,
 	SiPerl,
 	SiStorybook,
-	SiAmazonaws,
 	SiGoogleanalytics,
 	SiSalesforce,
 } from "react-icons/si";
-import { TbBrandRedux, TbBrandWebflow, TbBrandCypress } from "react-icons/tb";
+import { TbBrandRedux, TbBrandWebflow, TbBrandCypress, TbBrandPowershell } from "react-icons/tb";
+import { FaAws } from "react-icons/fa";
 
 const Techstack = () => {
 	return (
@@ -49,7 +48,7 @@ const Techstack = () => {
 				<TbBrandRedux />
 			</Col>
 			<Col xs={4} md={2} className="tech-icons">
-				<SiAmazonaws />
+				<FaAws />
 			</Col>
 			<Col xs={4} md={2} className="tech-icons">
 				<SiGoogleanalytics />
@@ -97,13 +96,10 @@ const Techstack = () => {
 				<DiJava />
 			</Col>
 			<Col xs={4} md={2} className="tech-icons">
-				<SiPowershell />
-			</Col>
-			<Col xs={4} md={2} className="tech-icons">
 				<SiPerl />
 			</Col>
 			<Col xs={4} md={2} className="tech-icons">
-				<SiPowershell />
+				<TbBrandPowershell />
 			</Col>
 		</Row>
 	);

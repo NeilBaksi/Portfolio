@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import parsePurple from "../Parser";
 import { AiFillCaretRight } from "react-icons/ai";
 
 const AboutCard = ({ resume }) => {
@@ -14,7 +15,7 @@ const AboutCard = ({ resume }) => {
 						<br />
 						Currently employed as a <span className="purple">{currentWork.position}</span> at <span className="purple">{currentWork.company}</span>.
 						<br />
-						{resume.basics.label}
+						{parsePurple(resume.basics.label)}
 						<br />
 						<br />
 						Key Interests:

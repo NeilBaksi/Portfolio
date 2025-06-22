@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiVisualstudiocode, SiPostman, SiSlack, SiMacos, SiFigma, SiAdobexd, SiMiro, SiJira, SiSquarespace, SiWix, SiWordpress, SiTrello, SiAsana, SiBigcommerce } from "react-icons/si";
+import { SiPostman, SiSlack, SiMacos, SiFigma, SiAdobexd, SiMiro, SiJira, SiSquarespace, SiWix, SiWordpress, SiTrello, SiAsana, SiBigcommerce } from "react-icons/si";
+import { VscVscodeInsiders } from "react-icons/vsc";
 
 const Toolstack = () => {
 	return (
@@ -9,7 +10,7 @@ const Toolstack = () => {
 				<SiMacos />
 			</Col>
 			<Col xs={4} md={2} className="tech-icons">
-				<SiVisualstudiocode />
+				<VscVscodeInsiders />
 			</Col>
 			<Col xs={4} md={2} className="tech-icons">
 				<SiPostman />
