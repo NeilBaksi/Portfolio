@@ -206,6 +206,10 @@
   .career-container {
     width: calc(100% - 25px);
   }
+
+  .career-info h3 {
+    font-size: 1.75rem;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -225,7 +229,8 @@
   }
 
   .career-info h3 {
-    font-size: 2.0625rem;
+    font-size: 1.375rem;
+    line-height: 1.625rem;
   }
 
   .career-info-in,

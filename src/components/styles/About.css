@@ -24,15 +24,19 @@
 }
 
 .about-me p {
-  font-size: 2.0625rem;
+  font-size: 1.25rem;
   font-weight: 600;
-  line-height: 2.25rem;
+  line-height: 1.625rem;
   letter-spacing: 0.0625rem;
 }
 
 @media only screen and (min-width: 600px) {
   .about-section {
     justify-content: center;
+  }
+  .about-me p {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -43,6 +47,10 @@
   }
   .about-section {
     opacity: 1;
+  }
+  .about-me p {
+    font-size: 1.75rem;
+    line-height: 2.125rem;
   }
 }
 @media only screen and (min-width: 1025px) {
