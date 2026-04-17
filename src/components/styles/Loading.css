@@ -312,7 +312,6 @@
 
 .loading-marquee {
   position: absolute;
-  top: 50%;
   left: 0;
   width: 100%;
   transform: translateY(-50%);
@@ -321,6 +320,12 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+
+.loading-marquee--1 { top: 20%; }
+.loading-marquee--2 { top: 35%; }
+.loading-marquee--3 { top: 50%; }
+.loading-marquee--4 { top: 65%; }
+.loading-marquee--5 { top: 80%; }
 
 .loading-marquee span {
   padding: 0 3.125rem;
