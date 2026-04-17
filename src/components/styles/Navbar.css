@@ -1,0 +1,212 @@
+/* ─── Header Shell ─── */
+.header {
+  display: flex;
+  max-width: var(--cMaxWidth);
+  width: var(--cWidth);
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 0;
+  margin-bottom: -100px;
+  box-sizing: border-box;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  z-index: 9999;
+  transition: padding 0.4s ease, background 0.4s ease;
+}
+
+/* Subtle accent line at bottom */
+.header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 80%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(94, 234, 212, 0.15),
+    transparent
+  );
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+/* ─── Logo ─── */
+.navbar-title {
+  font-weight: 800;
+  font-size: 1.125rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.navbar-title-dot {
+  color: var(--accentColor);
+  font-size: 1.5em;
+  line-height: 0;
+}
+
+/* ─── Nav Links ─── */
+.navbar-nav {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar-nav ul {
+  font-size: 0.8125rem;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  column-gap: 2.5rem;
+  align-items: center;
+}
+
+.navbar-nav ul li {
+  letter-spacing: 0.15em;
+  color: #adacac;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav ul li:hover {
+  color: #eae5ec;
+}
+
+.navbar-nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ─── Connect CTA ─── */
+.navbar-connect {
+  display: none;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8125rem;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--accentColor);
+  text-decoration: none;
+  padding: 0.5rem 1.25rem;
+  border: 1px solid rgba(94, 234, 212, 0.25);
+  border-radius: 2rem;
+  transition: all 0.35s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.navbar-connect::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--accentColor);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  z-index: -1;
+  border-radius: inherit;
+}
+
+.navbar-connect:hover {
+  color: var(--backgroundColor);
+  border-color: var(--accentColor);
+}
+
+.navbar-connect:hover::before {
+  opacity: 1;
+}
+
+.navbar-connect-arrow {
+  font-size: 1.1em;
+  transition: transform 0.35s ease;
+  display: inline-block;
+}
+
+.navbar-connect:hover .navbar-connect-arrow {
+  transform: translate(2px, -2px);
+}
+
+/* ─── Responsive ─── */
+
+/* Small mobile — stack nav vertically, hide connect */
+@media only screen and (max-width: 499px) {
+  .header {
+    padding: 0.75rem 0;
+  }
+
+  .navbar-nav {
+    position: static;
+    transform: none;
+  }
+
+  .navbar-nav ul {
+    flex-direction: column;
+    row-gap: 0.5rem;
+    align-items: flex-end;
+    font-size: 0.75rem;
+  }
+
+  .navbar-nav ul li {
+    color: #ccc;
+  }
+
+  .navbar-title {
+    font-size: 0.875rem;
+  }
+}
+
+/* Tablet+ — horizontal nav, slightly larger type */
+@media only screen and (min-width: 500px) {
+  .header {
+    padding: 1.25rem 0;
+  }
+
+  .navbar-nav ul {
+    font-size: 0.875rem;
+    column-gap: 2.5rem;
+  }
+
+  .navbar-nav ul li {
+    color: #eae5ec;
+  }
+
+  .navbar-title {
+    font-size: 1rem;
+  }
+}
+
+/* Desktop — show connect CTA */
+@media only screen and (min-width: 900px) {
+  .navbar-connect {
+    display: flex;
+  }
+}
+
+/* Large desktop — roomier spacing */
+@media only screen and (min-width: 1200px) {
+  .header {
+    padding: 2rem 0;
+  }
+
+  .navbar-nav ul {
+    column-gap: 4rem;
+    font-size: 0.9375rem;
+  }
+
+  .navbar-connect {
+    font-size: 0.8125rem;
+    padding: 0.5rem 1.5rem;
+  }
+
+  .navbar-title {
+    font-size: 1.125rem;
+  }
+}
