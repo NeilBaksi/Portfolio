@@ -87,19 +87,20 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>PRODUCT & STRATEGY</h3>
-              <h4>Business-Minded Engineering</h4>
+              <h3>PRODUCT ENGINEERING</h3>
+              <h4>End-to-End Product Ownership</h4>
               <p>
-                Bridging technology and business strategy to deliver customer-facing
-                digital products with measurable impact.
+                Lifecycle ownership of customer-facing products — discovery,
+                requirements, GTM, KPIs, and post-launch iteration. The
+                engineering and the product decisions, in one role.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Product Management</div>
+                <div className="what-tags">Product Ownership</div>
+                <div className="what-tags">GTM</div>
                 <div className="what-tags">A/B Testing</div>
-                <div className="what-tags">Pricing Strategy</div>
-                <div className="what-tags">Go-to-Market</div>
-                <div className="what-tags">User Research</div>
+                <div className="what-tags">Discovery</div>
+                <div className="what-tags">KPIs</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -123,20 +124,21 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>FULL-STACK DEVELOPMENT</h3>
-              <h4>Building Production Systems</h4>
+              <h3>MARKETING TECHNOLOGY</h3>
+              <h4>Salesforce + AEM + Optimizely</h4>
               <p>
-                Building scalable web applications and production systems across
-                the full stack — from frontend to APIs to cloud infrastructure.
+                Operate the marketing-tech stack at Optus — Salesforce Commerce
+                Cloud, Salesforce Marketing Cloud, Adobe Experience Manager,
+                Optimizely — instrumented for analytics across the full GTM
+                surface.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">React</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">GraphQL</div>
-                <div className="what-tags">Firebase</div>
+                <div className="what-tags">SFCC</div>
+                <div className="what-tags">SFMC</div>
+                <div className="what-tags">AEM</div>
+                <div className="what-tags">Optimizely</div>
+                <div className="what-tags">Analytics</div>
               </div>
               <div className="what-arrow"></div>
             </div>

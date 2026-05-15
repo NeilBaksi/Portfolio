@@ -62,9 +62,9 @@ const Loading = ({ percent }: { percent: number }) => {
 			<div className="loading-screen">
 				<div className="loading-marquee loading-marquee--1">
 					<Marquee speed={45}>
-						<span> Product-Minded Engineer</span> <span>React Developer</span>
+						<span> Product Engineer</span> <span>React Developer</span>
 						<span> TypeScript Specialist</span> <span>Tech Strategist</span>
-						<span> Product-Minded Engineer</span> <span>React Developer</span>
+						<span> Product Engineer</span> <span>React Developer</span>
 					</Marquee>
 				</div>
 				<div className="loading-marquee loading-marquee--2">
@@ -76,9 +76,9 @@ const Loading = ({ percent }: { percent: number }) => {
 				</div>
 				<div className="loading-marquee loading-marquee--3">
 					<Marquee speed={50}>
-						<span> Product-Minded Engineer</span> <span>MBA Candidate</span>
+						<span> Product Engineer</span> <span>MBA Candidate</span>
 						<span> Problem Solver</span> <span>System Thinker</span>
-						<span> Product-Minded Engineer</span> <span>MBA Candidate</span>
+						<span> Product Engineer</span> <span>MBA Candidate</span>
 					</Marquee>
 				</div>
 				<div className="loading-marquee loading-marquee--4">

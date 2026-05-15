@@ -6,13 +6,13 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Product-minded software engineer and MBA candidate at Melbourne Business
-          School, currently on exchange at Kellogg School of Management. With 7+
-          years of experience across telecommunications, fintech, and e-commerce, I
-          bridge the gap between technology and business strategy — building scalable
-          customer-facing digital products, improving web performance and user
-          experience, and partnering across product, design, and engineering to
-          deliver business impact.
+          Product engineer and MBA candidate at Melbourne Business School (on exchange
+          at Kellogg School of Management, Northwestern University), completing the
+          program in 2 years part-time alongside full-time work at Optus. 7+ years of
+          product engineering across telecom, fintech, and e-commerce — building
+          customer-facing digital products with end-to-end ownership, partnering across
+          product/design/engineering, and translating business strategy into shipped
+          product.
         </p>
       </div>
     </div>
