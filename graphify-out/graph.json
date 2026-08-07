@@ -1720,19 +1720,6 @@
       "id": "marketnow_screenshot"
     },
     {
-      "label": "Radix Dynamic Electronics E-Commerce Platform UI",
-      "file_type": "image",
-      "source_file": "public/images/radix.png",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 6,
-      "norm_label": "radix dynamic electronics e-commerce platform ui",
-      "id": "radix_screenshot"
-    },
-    {
       "label": "Orrdr eCommerce Platform Landing Page UI",
       "file_type": "image",
       "source_file": "public/images/orrdr.png",
@@ -1744,19 +1731,6 @@
       "community": 6,
       "norm_label": "orrdr ecommerce platform landing page ui",
       "id": "orrdr_screenshot"
-    },
-    {
-      "label": "Solid Starters Page Builder Platform UI",
-      "file_type": "image",
-      "source_file": "public/images/Solidx.png",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 6,
-      "norm_label": "solid starters page builder platform ui",
-      "id": "solidx_screenshot"
     },
     {
       "label": "setupTests.ts",
@@ -4856,33 +4830,9 @@
       "source_location": null,
       "weight": 1.0,
       "_src": "about_profile_photo",
-      "_tgt": "radix_screenshot",
-      "source": "about_profile_photo",
-      "target": "radix_screenshot"
-    },
-    {
-      "relation": "portfolio_item_of",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "public/Profile-Picture-v2.png",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "about_profile_photo",
       "_tgt": "orrdr_screenshot",
       "source": "about_profile_photo",
       "target": "orrdr_screenshot"
-    },
-    {
-      "relation": "portfolio_item_of",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "public/Profile-Picture-v2.png",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "about_profile_photo",
-      "_tgt": "solidx_screenshot",
-      "source": "about_profile_photo",
-      "target": "solidx_screenshot"
     },
     {
       "relation": "portfolio_item_of",
@@ -4943,30 +4893,6 @@
       "_tgt": "marketnow_screenshot",
       "source": "stack_screenshot",
       "target": "marketnow_screenshot"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "public/images/radix.png",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "radix_screenshot",
-      "_tgt": "solidx_screenshot",
-      "source": "radix_screenshot",
-      "target": "solidx_screenshot"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.75,
-      "source_file": "public/images/orrdr.png",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "radix_screenshot",
-      "_tgt": "orrdr_screenshot",
-      "source": "radix_screenshot",
-      "target": "orrdr_screenshot"
     },
     {
       "relation": "contains",
