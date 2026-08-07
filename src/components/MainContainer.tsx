@@ -1,4 +1,7 @@
-import { lazy, PropsWithChildren, Suspense, useEffect, useState } from "react";
+"use client";
+
+import { PropsWithChildren, Suspense, useEffect, useState } from "react";
+import dynamic from "next/dynamic";
 import About from "./About";
 import Career from "./Career";
 import Contact from "./Contact";
@@ -11,12 +14,12 @@ import Work from "./Work";
 import Projects from "./Projects";
 import setSplitText from "./utils/splitText";
 
-const TechStack = lazy(() => import("./TechStack"));
+const TechStack = dynamic(() => import("./TechStack"), { ssr: false });
 
 const MainContainer = ({ children }: PropsWithChildren) => {
-  const [isDesktopView, setIsDesktopView] = useState<boolean>(
-    window.innerWidth > 1024
-  );
+  // Build-time render has no window; default to desktop layout so all
+  // content still prerenders, then correct after mount.
+  const [isDesktopView, setIsDesktopView] = useState<boolean>(true);
 
   useEffect(() => {
     const resizeHandler = () => {
@@ -28,7 +31,8 @@ const MainContainer = ({ children }: PropsWithChildren) => {
     return () => {
       window.removeEventListener("resize", resizeHandler);
     };
-  }, [isDesktopView]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <div className="container-main">

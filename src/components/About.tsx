@@ -1,10 +1,12 @@
+"use client";
+
 import "./styles/About.css";
 
 const About = () => {
   return (
-    <div className="about-section" id="about">
+    <section className="about-section" id="about" aria-label="About">
       <div className="about-me">
-        <h3 className="title">About Me</h3>
+        <h2 className="title">About Me</h2>
         <p className="para">
           Product engineer and MBA candidate at Melbourne Business School (on exchange
           at Kellogg School of Management, Northwestern University), completing the
@@ -15,7 +17,7 @@ const About = () => {
           product.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 

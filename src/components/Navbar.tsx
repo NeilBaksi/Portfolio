@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HoverLinks from "./HoverLinks";
@@ -5,7 +7,9 @@ import { gsap } from "gsap";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
 import "./styles/Navbar.css";
 
-gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
+if (typeof window !== "undefined") {
+  gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
+}
 export let smoother: ScrollSmoother;
 
 const Navbar = () => {
@@ -41,11 +45,11 @@ const Navbar = () => {
   }, []);
   return (
     <>
-      <div className="header">
+      <header className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
           NB<span className="navbar-title-dot">.</span>
         </a>
-        <nav className="navbar-nav">
+        <nav className="navbar-nav" aria-label="Primary">
           <ul>
             <li>
               <a data-href="#about" href="#about">
@@ -79,7 +83,7 @@ const Navbar = () => {
           <span className="navbar-connect-text">Let's Connect</span>
           <span className="navbar-connect-arrow">&#8599;</span>
         </a>
-      </div>
+      </header>
 
       <div className="landing-circle1"></div>
       <div className="landing-circle2"></div>

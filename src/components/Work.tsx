@@ -1,3 +1,5 @@
+"use client";
+
 import type { IconType } from "react-icons";
 import { HiArrowUpRight } from "react-icons/hi2";
 import {
@@ -67,7 +69,7 @@ const PROJECTS: Project[] = [
 ];
 
 const Work = () => (
-  <section className="work work-section" id="work">
+  <section className="work work-section" id="work" aria-label="Work experience">
     <div className="work-container section-container">
       <header className="work__header">
         <h2 className="work__title">

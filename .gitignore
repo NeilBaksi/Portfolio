@@ -46,6 +46,10 @@ build/Release
 # Build output
 build/
 dist/
+out/
+.next/
+next-env.d.ts
+*.tsbuildinfo
 
 # Dependency directories
 node_modules/

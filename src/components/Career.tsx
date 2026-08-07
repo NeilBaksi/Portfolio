@@ -1,8 +1,13 @@
+"use client";
+
 import "./styles/Career.css";
 
 const Career = () => {
   return (
-    <div className="career-section section-container">
+    <section
+      className="career-section section-container"
+      aria-label="Career and experience"
+    >
       <div className="career-container">
         <h2>
           My career <span>&</span>
@@ -18,7 +23,7 @@ const Career = () => {
                 <h4>MBA Candidate</h4>
                 <h5>Melbourne Business School · Kellogg Exchange</h5>
               </div>
-              <h3>NOW</h3>
+              <span className="career-date">NOW</span>
             </div>
             <p>
               MBA candidate at Melbourne Business School, currently on exchange
@@ -34,7 +39,7 @@ const Career = () => {
                 <h4>Senior Product Engineer</h4>
                 <h5>Optus (Singtel Group) · Australia's #2 telecom</h5>
               </div>
-              <h3>2023-NOW</h3>
+              <span className="career-date">2023-NOW</span>
             </div>
             <p>
               Drove the highest single-day revenue day in Optus e-commerce
@@ -51,7 +56,7 @@ const Career = () => {
                 <h4>Product Engineer</h4>
                 <h5>Limepay</h5>
               </div>
-              <h3>2020-22</h3>
+              <span className="career-date">2020-22</span>
             </div>
             <p>
               Grew MarketNow to 40% of Limepay's annual revenue by leading
@@ -67,7 +72,7 @@ const Career = () => {
                 <h4>Co-Founder</h4>
                 <h5>Shimmer Bazaar</h5>
               </div>
-              <h3>2020-22</h3>
+              <span className="career-date">2020-22</span>
             </div>
             <p>
               Pioneered Australia's first South Asian beauty and fashion
@@ -81,7 +86,7 @@ const Career = () => {
                 <h4>Lead Product Engineer</h4>
                 <h5>Goodscast (EnterOffer)</h5>
               </div>
-              <h3>2019-20</h3>
+              <span className="career-date">2019-20</span>
             </div>
             <p>
               Led front-end architecture and end-to-end customer journey design
@@ -92,7 +97,7 @@ const Career = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

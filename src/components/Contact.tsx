@@ -1,14 +1,16 @@
+"use client";
+
 import { MdArrowOutward, MdCopyright } from "react-icons/md";
 import "./styles/Contact.css";
 
 const Contact = () => {
   return (
-    <div className="contact-section section-container" id="contact">
+    <footer className="contact-section section-container" id="contact" aria-label="Contact">
       <div className="contact-container">
-        <h3>Contact</h3>
+        <h2>Contact</h2>
         <div className="contact-flex">
           <div className="contact-box">
-            <h4>Connect</h4>
+            <h3>Connect</h3>
             <p>
               <a
                 href="https://www.linkedin.com/in/neil-supratik-baksi/"
@@ -19,7 +21,7 @@ const Contact = () => {
                 LinkedIn — neil-supratik-baksi
               </a>
             </p>
-            <h4>Education</h4>
+            <h3>Education</h3>
             <p>
               MBA, Melbourne Business School — 2024–2026
             </p>
@@ -28,7 +30,7 @@ const Contact = () => {
             </p>
           </div>
           <div className="contact-box">
-            <h4>Social</h4>
+            <h3>Social</h3>
             <a
               href="https://github.com/NeilBaksi"
               target="_blank"
@@ -65,16 +67,16 @@ const Contact = () => {
             </a>
           </div>
           <div className="contact-box">
-            <h2>
+            <h4>
               Designed and Developed <br /> by <span>Neil Baksi</span>
-            </h2>
+            </h4>
             <h5>
               <MdCopyright /> 2026
             </h5>
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

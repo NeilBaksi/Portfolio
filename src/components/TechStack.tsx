@@ -1,3 +1,5 @@
+"use client";
+
 import * as THREE from "three";
 import { useRef, useMemo, useState, useEffect } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
@@ -177,8 +179,13 @@ const TechStack = () => {
   }, []);
 
   return (
-    <div className="techstack">
+    <section className="techstack" aria-label="Tech stack">
       <h2> My Techstack</h2>
+      <p className="sr-only">
+        Interactive 3D scene showing floating spheres textured with logos for
+        React, Next.js, Node, Express, MongoDB, TypeScript, and other
+        technologies in my stack.
+      </p>
 
       <Canvas
         shadows
@@ -217,7 +224,7 @@ const TechStack = () => {
           <N8AO color="#0f002c" aoRadius={2} intensity={1.15} />
         </EffectComposer>
       </Canvas>
-    </div>
+    </section>
   );
 };
 

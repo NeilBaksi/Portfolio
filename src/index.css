@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap");
-
 :root {
-  font-family: "Oxanium", sans-serif;
+  font-family: var(--font-oxanium), sans-serif;
 
   font-optical-sizing: auto;
   font-style: normal;
@@ -30,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Oxanium", sans-serif;
+  font-family: var(--font-oxanium), sans-serif;
 }
 
 body {

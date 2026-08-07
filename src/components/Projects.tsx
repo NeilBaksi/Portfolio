@@ -1,3 +1,5 @@
+"use client";
+
 import type { IconType } from "react-icons";
 import { HiArrowUpRight } from "react-icons/hi2";
 import {
@@ -56,7 +58,7 @@ const PROJECTS: Project[] = [
 ];
 
 const Projects = () => (
-  <section className="projects projects-section" id="projects">
+  <section className="projects projects-section" id="projects" aria-label="Projects">
     <div className="projects-container section-container">
       <header className="projects__header">
         <h2 className="projects__title">

@@ -1,3 +1,5 @@
+"use client";
+
 import {
   FaGithub,
   FaInstagram,
@@ -64,6 +66,7 @@ const SocialIcons = () => {
             href="https://github.com/NeilBaksi"
             target="_blank"
             rel="noreferrer"
+            aria-label="GitHub"
           >
             <FaGithub />
           </a>
@@ -73,6 +76,7 @@ const SocialIcons = () => {
             href="https://www.linkedin.com/in/neil-supratik-baksi/"
             target="_blank"
             rel="noreferrer"
+            aria-label="LinkedIn"
           >
             <FaLinkedinIn />
           </a>
@@ -82,6 +86,7 @@ const SocialIcons = () => {
             href="mailto:snb.1996@gmail.com"
             target="_blank"
             rel="noreferrer"
+            aria-label="Email"
           >
             <MdEmail />
           </a>
@@ -91,6 +96,7 @@ const SocialIcons = () => {
             href="https://www.instagram.com/neilbaksi"
             target="_blank"
             rel="noreferrer"
+            aria-label="Instagram"
           >
             <FaInstagram />
           </a>
