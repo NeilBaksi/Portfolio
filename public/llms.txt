@@ -1,0 +1,27 @@
+# Neil Baksi
+
+> Product Engineer and MBA candidate. 7+ years building customer-facing digital products in telecom, fintech, and e-commerce.
+
+## About
+
+Neil Baksi is a product engineer with experience at Optus (Singtel) and Limepay (BNPL/fintech), currently an MBA candidate at Melbourne Business School (Kellogg School of Management exchange). He builds full-stack, customer-facing digital products across telecom, fintech, and e-commerce.
+
+## Skills
+
+React, TypeScript, product engineering, front-end architecture, digital product strategy, fintech (BNPL) systems, telecom platforms, e-commerce.
+
+## Projects
+
+- Optus Digital Platform — customer-facing telecom product work at Optus.
+- MarketNow — e-commerce project.
+- STACK Payments — fintech/payments project.
+- Shimmer Bazaar — e-commerce project.
+
+## Links
+
+- Website: https://snbaksi.com
+- GitHub: https://github.com/NeilBaksi
+- LinkedIn: https://www.linkedin.com/in/neil-supratik-baksi/
+- Instagram: https://www.instagram.com/neilbaksi
+- Email: snb.1996@gmail.com
+- Resume: https://snbaksi.com/Neil_Baksi_Resume.pdf
