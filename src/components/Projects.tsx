@@ -29,6 +29,18 @@ type Project = {
 
 const PROJECTS: Project[] = [
   {
+    title: "AI-Native Marketing",
+    category: "Handbook · Kellogg MBA Course",
+    tools: ["React", "TypeScript", "Tailwind", "Vite"],
+    href: "https://neilbaksi.github.io/AI-Native-Marketing/",
+  },
+  {
+    title: "Five Days of Product",
+    category: "Course · Product Management",
+    tools: ["React", "TypeScript", "Tailwind", "Vite"],
+    href: "https://neilbaksi.github.io/five-days-of-product/",
+  },
+  {
     title: "Finnder",
     category: "Side Project · Restaurant Picker",
     tools: ["React", "TypeScript", "Tailwind", "Vite"],
@@ -52,6 +64,12 @@ const PROJECTS: Project[] = [
     category: "Side Project · Word Game",
     tools: ["React", "TypeScript", "Vite"],
     href: "https://wordle-baksi.vercel.app/",
+  },
+  {
+    title: "Linktree",
+    category: "Side Project · Personal Links",
+    tools: ["React", "TypeScript", "Tailwind", "Vite"],
+    href: "https://neilbaksi.github.io/linktree/",
   },
 ];
 
